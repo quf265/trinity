@@ -1,0 +1,36 @@
+             exe-1050232 [002] .N... 1635694.381569: tracing_mark_write: openat2(dfd=17, filename="/victims/usr/share/perl/5.34.0/Math/BigInt", how=32, usize=0) start
+             exe-1050232 [002] .N... 1635694.381577: sys_pwrite64 -> 0x5d
+             exe-1050232 [002] ..... 1635694.381632: sys_ptrace(request: 4205, pid: 100716, addr: 1, data: c0022e1c70)
+             exe-1050232 [002] ..... 1635694.381637: sys_ptrace -> 0x0
+             exe-1050232 [002] ..... 1635694.381638: sys_ptrace(request: 4205, pid: 100716, addr: 202, data: c0022e1c70)
+             exe-1050232 [002] ..... 1635694.381659: sys_ptrace -> 0x0
+             exe-1050232 [002] ..... 1635694.381660: sys_ptrace(request: 1f, pid: 100716, addr: 0, data: 0)
+             exe-1050232 [002] .N... 1635694.381666: sys_ptrace -> 0x0
+             exe-1050390 [002] ..... 1635694.381718: sys_write -> 0x5d
+             exe-1050232 [002] ..... 1635694.381736: sys_wait4(upid: 100716, stat_addr: c0022e1bf4, options: 40000002, ru: 0)
+             exe-1050232 [002] ..... 1635694.381738: sys_wait4 -> 0x100716
+             exe-1050232 [002] ..... 1635694.381740: sys_ptrace(request: 4204, pid: 100716, addr: 1, data: c0022e1c70)
+             exe-1050232 [002] ..... 1635694.381744: sys_ptrace -> 0x0
+             exe-1050232 [002] ..... 1635694.381745: sys_ptrace(request: 4204, pid: 100716, addr: 202, data: c0022e1c70)
+             exe-1050232 [002] ..... 1635694.381747: sys_ptrace -> 0x0
+             exe-1049981 [000] ..... 1635694.381806: sys_epoll_pwait -> 0x0
+             exe-1049981 [000] ..... 1635694.381819: sys_futex(uaddr: c0049c7548, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1050232 [002] ..... 1635694.381824: sys_ptrace(request: 4205, pid: 100716, addr: 1, data: c0022e1c70)
+             exe-1050232 [002] ..... 1635694.381827: sys_ptrace -> 0x0
+             exe-1050232 [002] ..... 1635694.381828: sys_ptrace(request: 4205, pid: 100716, addr: 202, data: c0022e1c70)
+             exe-1049981 [000] ..... 1635694.381831: sys_futex -> 0x1
+             exe-1050232 [002] ..... 1635694.381840: sys_ptrace -> 0x0
+             exe-1050232 [002] ..... 1635694.381841: sys_ptrace(request: 1f, pid: 100716, addr: 0, data: 0)
+             exe-1049981 [000] ..... 1635694.381844: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)
+             exe-1050232 [002] .N... 1635694.381846: sys_ptrace -> 0x0
+             exe-1050390 [002] ..... 1635694.381853: sys_openat2 -> 0xffffffffffffffda
+             exe-1050232 [002] ..... 1635694.381869: sys_wait4(upid: 100716, stat_addr: c0022e1bf4, options: 40000002, ru: 0)
+             exe-1050232 [002] ..... 1635694.381870: sys_wait4 -> 0x100716
+             exe-1050232 [002] ..... 1635694.381872: sys_ptrace(request: 4204, pid: 100716, addr: 1, data: c0022e1c70)
+             exe-1050232 [002] ..... 1635694.381874: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1635694.381901: sys_futex -> 0x0
+             exe-1050289 [003] ..... 1635694.381914: sys_futex(uaddr: c0049c7548, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1050232 [002] ..... 1635694.381919: sys_ptrace(request: 4204, pid: 100716, addr: 202, data: c0022e1c70)
+             exe-1050232 [002] ..... 1635694.381922: sys_ptrace -> 0x0
+             exe-1050232 [002] ..... 1635694.381936: sys_pwrite64(fd: 63, buf: 7fd66f986080, count: 5b, pos: 5d)
+             exe-1050232 [002] ..... 1635694.381939: tracing_mark_write: openat2(dfd=17, filename="/victims/usr/share/perl/5.34.0/Math/BigInt", how=32, usize=0) end

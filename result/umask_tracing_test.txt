@@ -1,0 +1,68 @@
+             exe-1050008 [002] ..... 1637144.462558: tracing_mark_write: umask(mask=20) start
+             exe-1050008 [002] ..... 1637144.462564: sys_pwrite64 -> 0x14
+             exe-1050008 [002] ..... 1637144.462567: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1049567 [001] ..... 1637144.462573: sys_nanosleep -> 0x0
+             exe-1050008 [002] ..... 1637144.462573: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462574: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1049567 [001] ..... 1637144.462577: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050008 [002] ..... 1637144.462578: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462579: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)
+             exe-1050008 [002] ..... 1637144.462583: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462584: sys_wait4(upid: 10059f, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049673 [003] ..... 1637144.462589: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1637144.462592: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1050015 [001] ..... 1637144.462596: sys_write -> 0x14
+             exe-1050008 [002] ..... 1637144.462616: sys_wait4 -> 0x10059f
+             exe-1050008 [002] ..... 1637144.462618: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.462619: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462620: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.462621: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462624: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.462625: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462625: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.462629: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462630: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)
+             exe-1050008 [002] ..... 1637144.462633: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462634: sys_wait4(upid: 10059f, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050015 [001] ..... 1637144.462640: sys_umask -> 0x12
+             exe-1050008 [002] ..... 1637144.462648: sys_wait4 -> 0x10059f
+             exe-1050008 [002] ..... 1637144.462649: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.462651: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462651: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.462652: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.462656: sys_pwrite64(fd: 63, buf: 7fd66edbb080, count: 12, pos: 14)
+             exe-1050008 [002] ..... 1637144.462656: tracing_mark_write: umask(mask=20) end
+             exe-1050008 [002] ..... 1637144.515935: tracing_mark_write: umask(mask=8) start
+             exe-1050008 [002] ..... 1637144.515935: sys_pwrite64 -> 0x13
+             exe-1050008 [002] ..... 1637144.515939: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.515940: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.515941: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.515947: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.515948: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)
+             exe-1050008 [002] ..... 1637144.515952: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.515953: sys_wait4(upid: 10059f, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050015 [002] ..... 1637144.515960: sys_write -> 0x13
+             exe-1049673 [003] ..... 1637144.515965: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1637144.515967: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050008 [002] ..... 1637144.515973: sys_wait4 -> 0x10059f
+             exe-1050008 [002] ..... 1637144.515975: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.515977: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.515978: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.515979: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.515982: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.515983: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.515984: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.515989: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.515990: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)
+             exe-1049567 [001] ..... 1637144.515990: sys_nanosleep -> 0x0
+             exe-1050008 [002] ..... 1637144.515993: sys_ptrace -> 0x0
+             exe-1049567 [001] ..... 1637144.515993: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050008 [002] ..... 1637144.515994: sys_wait4(upid: 10059f, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050015 [002] ..... 1637144.516001: sys_umask -> 0x14
+             exe-1050008 [002] ..... 1637144.516012: sys_wait4 -> 0x10059f
+             exe-1050008 [002] ..... 1637144.516014: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.516016: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.516017: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0004bdc70)
+             exe-1050008 [002] ..... 1637144.516018: sys_ptrace -> 0x0
+             exe-1050008 [002] ..... 1637144.516023: sys_pwrite64(fd: 63, buf: 7fd66edbb080, count: 11, pos: 13)
+             exe-1050008 [002] ..... 1637144.516024: tracing_mark_write: umask(mask=8) end

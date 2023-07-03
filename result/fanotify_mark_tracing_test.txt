@@ -1,0 +1,34 @@
+             exe-1049981 [003] ..... 1634251.185179: tracing_mark_write: fanotify_mark(fanotify_fd=279, flags=0x5, mask=0x5b8711ee, dfd=279, pathname="/victims/proc/self/root/usr/share/ucf") start
+             exe-1049673 [000] ..... 1634251.185180: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1634251.185183: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1634251.185184: sys_pwrite64 -> 0x7b
+             exe-1049981 [003] ..... 1634251.185188: sys_ptrace(request: 4205, pid: 10058a, addr: 1, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185193: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185194: sys_ptrace(request: 4205, pid: 10058a, addr: 202, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185199: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185200: sys_ptrace(request: 1f, pid: 10058a, addr: 0, data: 0)
+             exe-1049981 [003] ..... 1634251.185204: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185205: sys_wait4(upid: 10058a, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1049994 [000] ..... 1634251.185213: sys_write -> 0x7b
+             exe-1049981 [003] ..... 1634251.185224: sys_wait4 -> 0x10058a
+             exe-1049981 [003] ..... 1634251.185225: sys_ptrace(request: 4204, pid: 10058a, addr: 1, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185227: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185228: sys_ptrace(request: 4204, pid: 10058a, addr: 202, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185229: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185253: sys_ptrace(request: 4205, pid: 10058a, addr: 1, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185255: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185256: sys_ptrace(request: 4205, pid: 10058a, addr: 202, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185261: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185262: sys_ptrace(request: 1f, pid: 10058a, addr: 0, data: 0)
+             exe-1049981 [003] ..... 1634251.185266: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185267: sys_wait4(upid: 10058a, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1049673 [000] ..... 1634251.185275: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1634251.185278: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049994 [000] ..... 1634251.185291: sys_fanotify_mark -> 0xffffffffffffffda
+             exe-1049981 [003] ..... 1634251.185302: sys_wait4 -> 0x10058a
+             exe-1049981 [003] ..... 1634251.185304: sys_ptrace(request: 4204, pid: 10058a, addr: 1, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185305: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185306: sys_ptrace(request: 4204, pid: 10058a, addr: 202, data: c0005d1c70)
+             exe-1049981 [003] ..... 1634251.185307: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634251.185312: sys_pwrite64(fd: 63, buf: 7fd66ee2c080, count: 79, pos: 7b)
+             exe-1049981 [003] ..... 1634251.185313: tracing_mark_write: fanotify_mark(fanotify_fd=279, flags=0x5, mask=0x5b8711ee, dfd=279, pathname="/victims/proc/self/root/usr/share/ucf") end

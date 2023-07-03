@@ -1,0 +1,64 @@
+             exe-1049722 [003] ..... 1635334.905623: tracing_mark_write: mlock2(start=0x7f5408691000, len=0) start
+             exe-1049722 [003] ..... 1635334.905625: sys_pwrite64 -> 0x29
+             exe-1049722 [003] ..... 1635334.905629: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905631: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905632: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905639: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905641: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049673 [001] ..... 1635334.905645: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635334.905647: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049722 [003] ..... 1635334.905649: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905651: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050099 [000] ..... 1635334.905665: sys_write -> 0x29
+             exe-1049722 [003] ..... 1635334.905678: sys_wait4 -> 0x1005f3
+             exe-1049722 [003] ..... 1635334.905680: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905682: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905683: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905685: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905691: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905692: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905694: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905699: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905700: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [003] ..... 1635334.905707: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905709: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050099 [000] ..... 1635334.905724: sys_mlock2 -> 0x0
+             exe-1049722 [003] ..... 1635334.905735: sys_wait4 -> 0x1005f3
+             exe-1049722 [003] ..... 1635334.905737: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905739: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905740: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [003] ..... 1635334.905743: sys_ptrace -> 0x0
+             exe-1049722 [003] ..... 1635334.905747: sys_pwrite64(fd: 63, buf: 7fd66ed9a080, count: 27, pos: 29)
+             exe-1049722 [003] ..... 1635334.905748: tracing_mark_write: mlock2(start=0x7f5408691000, len=0) end
+             exe-1049981 [002] ..... 1635334.962693: tracing_mark_write: mlock2(start=0x7f5406b00000, len=0x48000) start
+             exe-1049981 [002] ..... 1635334.962712: sys_pwrite64 -> 0x2f
+             exe-1049981 [002] ..... 1635334.962722: sys_ptrace(request: 4205, pid: 1005aa, addr: 1, data: c000699c70)
+             exe-1049981 [002] .N... 1635334.962750: sys_ptrace -> 0x0
+             exe-1049567 [000] ..... 1635334.962762: sys_nanosleep -> 0x0
+             exe-1049567 [000] ..... 1635334.962770: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [002] ..... 1635334.962794: sys_ptrace(request: 4205, pid: 1005aa, addr: 202, data: c000699c70)
+             exe-1049981 [002] ..... 1635334.962808: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.962810: sys_ptrace(request: 1f, pid: 1005aa, addr: 0, data: 0)
+             exe-1049981 [002] ..... 1635334.962824: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.962827: sys_wait4(upid: 1005aa, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050026 [001] ..... 1635334.962840: sys_write -> 0x2f
+             exe-1049981 [002] ..... 1635334.962902: sys_wait4 -> 0x1005aa
+             exe-1049981 [002] ..... 1635334.962908: sys_ptrace(request: 4204, pid: 1005aa, addr: 1, data: c000699c70)
+             exe-1049981 [002] ..... 1635334.962912: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.962914: sys_ptrace(request: 4204, pid: 1005aa, addr: 202, data: c000699c70)
+             exe-1049981 [002] ..... 1635334.962917: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.962928: sys_ptrace(request: 4205, pid: 1005aa, addr: 1, data: c000699c70)
+             exe-1049981 [002] ..... 1635334.962931: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.962932: sys_ptrace(request: 4205, pid: 1005aa, addr: 202, data: c000699c70)
+             exe-1049981 [002] ..... 1635334.962943: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.962945: sys_ptrace(request: 1f, pid: 1005aa, addr: 0, data: 0)
+             exe-1050026 [001] ..... 1635334.962976: sys_mlock2 -> 0xfffffffffffffff4
+             exe-1049981 [002] .N... 1635334.962979: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.963024: sys_wait4(upid: 1005aa, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049981 [002] ..... 1635334.963027: sys_wait4 -> 0x1005aa
+             exe-1049981 [002] ..... 1635334.963030: sys_ptrace(request: 4204, pid: 1005aa, addr: 1, data: c000699c70)
+             exe-1049981 [002] ..... 1635334.963034: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.963035: sys_ptrace(request: 4204, pid: 1005aa, addr: 202, data: c000699c70)
+             exe-1049981 [002] ..... 1635334.963038: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635334.963052: sys_pwrite64(fd: 63, buf: 7fd66ed9a080, count: 2d, pos: 2f)
+             exe-1049981 [002] ..... 1635334.963054: tracing_mark_write: mlock2(start=0x7f5406b00000, len=0x48000) end

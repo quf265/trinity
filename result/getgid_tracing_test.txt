@@ -1,0 +1,68 @@
+             exe-1049722 [000] ..... 1634561.853513: tracing_mark_write: getgid() start
+             exe-1049722 [000] ..... 1634561.853519: sys_pwrite64 -> 0xe
+             exe-1049722 [000] ..... 1634561.853524: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.853526: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.853527: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.853535: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.853537: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [000] .N... 1634561.853542: sys_ptrace -> 0x0
+             exe-1050099 [000] ..... 1634561.853550: sys_write -> 0xe
+             exe-1049722 [000] ..... 1634561.853564: sys_wait4(upid: 1005f3, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1049722 [000] ..... 1634561.853566: sys_wait4 -> 0x1005f3
+             exe-1049722 [000] ..... 1634561.853568: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.853570: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.853571: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.853573: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.853577: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.853579: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.853580: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049567 [001] ..... 1634561.853586: sys_nanosleep -> 0x0
+             exe-1049722 [000] ..... 1634561.853586: sys_ptrace -> 0x0
+             exe-1049567 [001] ..... 1634561.853587: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [000] ..... 1634561.853588: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [000] .N... 1634561.853592: sys_ptrace -> 0x0
+             exe-1050099 [000] ..... 1634561.853609: sys_getgid -> 0x0
+             exe-1049722 [000] ..... 1634561.853626: sys_wait4(upid: 1005f3, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1049722 [000] ..... 1634561.853628: sys_wait4 -> 0x1005f3
+             exe-1049722 [000] ..... 1634561.853630: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.853632: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.853633: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.853635: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.853645: sys_pwrite64(fd: 63, buf: 7fd66ee42080, count: c, pos: e)
+             exe-1049722 [000] ..... 1634561.853647: tracing_mark_write: getgid() end
+             exe-1049722 [000] ..... 1634561.921665: tracing_mark_write: getgid() start
+             exe-1049722 [000] ..... 1634561.921666: sys_pwrite64 -> 0xe
+             exe-1049722 [000] ..... 1634561.921670: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921672: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.921673: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921681: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.921682: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049567 [001] ..... 1634561.921684: sys_nanosleep -> 0x0
+             exe-1049567 [001] ..... 1634561.921685: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [000] .N... 1634561.921687: sys_ptrace -> 0x0
+             exe-1050099 [000] ..... 1634561.921695: sys_write -> 0xe
+             exe-1049673 [003] ..... 1634561.921701: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1634561.921703: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [000] ..... 1634561.921709: sys_wait4(upid: 1005f3, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1049722 [000] ..... 1634561.921710: sys_wait4 -> 0x1005f3
+             exe-1049722 [000] ..... 1634561.921712: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921714: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.921715: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921717: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.921721: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921723: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.921724: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921730: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.921731: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [000] .N... 1634561.921735: sys_ptrace -> 0x0
+             exe-1050099 [000] ..... 1634561.921743: sys_getgid -> 0x0
+             exe-1049722 [000] ..... 1634561.921755: sys_wait4(upid: 1005f3, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1049722 [000] ..... 1634561.921757: sys_wait4 -> 0x1005f3
+             exe-1049722 [000] ..... 1634561.921758: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921761: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634561.921762: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c0005d1c70)
+             exe-1049722 [000] ..... 1634561.921763: sys_ptrace -> 0x0
+             exe-1049567 [001] ..... 1634561.921764: sys_nanosleep -> 0x0
+             exe-1049567 [001] ..... 1634561.921765: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [000] ..... 1634561.921770: sys_pwrite64(fd: 63, buf: 7fd66ee42080, count: c, pos: e)
+             exe-1049722 [000] ..... 1634561.921771: tracing_mark_write: getgid() end

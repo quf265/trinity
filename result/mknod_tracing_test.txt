@@ -1,0 +1,394 @@
+             exe-1049896 [002] ..... 1635314.373383: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/lib/x86_64-linux-gnu/perl/5.34.0/auto/Filter/Util", mode=706, dev=0) start
+             exe-1049896 [002] ..... 1635314.373400: sys_pwrite64 -> 0x76
+             exe-1049896 [002] ..... 1635314.373407: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373409: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373411: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373421: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373422: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [002] ..... 1635314.373429: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373431: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [003] ..... 1635314.373437: sys_write -> 0x76
+             exe-1049896 [002] ..... 1635314.373452: sys_wait4 -> 0x100787
+             exe-1049896 [002] ..... 1635314.373454: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373457: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373458: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373460: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373570: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373574: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373576: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373587: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373588: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [002] ..... 1635314.373599: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373601: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [003] ..... 1635314.373615: sys_mknod -> 0xffffffffffffffef
+             exe-1049896 [002] ..... 1635314.373630: sys_wait4 -> 0x100787
+             exe-1049896 [002] ..... 1635314.373632: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373635: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373636: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [002] ..... 1635314.373639: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635314.373656: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 74, pos: 76)
+             exe-1049896 [002] ..... 1635314.373658: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/lib/x86_64-linux-gnu/perl/5.34.0/auto/Filter/Util", mode=706, dev=0) end
+             exe-1049896 [000] ..... 1635314.436750: tracing_mark_write: mknod(filename=".//victims/proc/self/root/usr/share/locale/uk/", mode=0, dev=0x100000) start
+             exe-1049896 [000] ..... 1635314.436768: sys_pwrite64 -> 0x5c
+             exe-1049896 [000] ..... 1635314.436774: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436777: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436778: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436787: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436789: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [000] ..... 1635314.436796: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436798: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [003] ..... 1635314.436800: sys_write -> 0x5c
+             exe-1049896 [000] ..... 1635314.436819: sys_wait4 -> 0x100787
+             exe-1049896 [000] ..... 1635314.436822: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436825: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436826: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436828: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436851: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436854: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436855: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436864: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436866: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [000] ..... 1635314.436873: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436875: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [003] ..... 1635314.436877: sys_mknod -> 0xfffffffffffffffe
+             exe-1049896 [000] ..... 1635314.436891: sys_wait4 -> 0x100787
+             exe-1049896 [000] ..... 1635314.436894: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436896: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436898: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.436900: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.436906: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 5a, pos: 5c)
+             exe-1049896 [000] ..... 1635314.436908: tracing_mark_write: mknod(filename=".//victims/proc/self/root/usr/share/locale/uk/", mode=0, dev=0x100000) end
+             exe-1049896 [000] ..... 1635314.497999: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/share/vim/vim82/lang/zh_CN.UTF-8", mode=0, dev=0x1a200010810000) start
+             exe-1049896 [000] ..... 1635314.498001: sys_pwrite64 -> 0x72
+             exe-1049896 [000] ..... 1635314.498006: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498008: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498010: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498017: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498019: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [000] ..... 1635314.498030: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498032: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [003] ..... 1635314.498053: sys_write -> 0x72
+             exe-1049673 [001] ..... 1635314.498070: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635314.498075: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [000] ..... 1635314.498085: sys_nanosleep -> 0x0
+             exe-1049567 [000] ..... 1635314.498089: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [000] ..... 1635314.498095: sys_wait4 -> 0x100787
+             exe-1049896 [000] ..... 1635314.498098: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498101: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498102: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498104: sys_ptrace -> 0x0
+             exe-1049673 [001] ..... 1635314.498179: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635314.498185: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [000] ..... 1635314.498209: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498213: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498215: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498226: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498227: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [000] ..... 1635314.498240: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498243: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [003] ..... 1635314.498256: sys_mknod -> 0xffffffffffffffef
+             exe-1049896 [000] ..... 1635314.498273: sys_wait4 -> 0x100787
+             exe-1049896 [000] ..... 1635314.498276: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498279: sys_ptrace -> 0x0
+             exe-1049896 [000] ..... 1635314.498280: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [000] ..... 1635314.498283: sys_ptrace -> 0x0
+             exe-1049673 [001] ..... 1635314.498287: sys_nanosleep -> 0x0
+             exe-1049896 [000] ..... 1635314.498291: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 70, pos: 72)
+             exe-1049673 [001] ..... 1635314.498292: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [000] ..... 1635314.498293: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/share/vim/vim82/lang/zh_CN.UTF-8", mode=0, dev=0x1a200010810000) end
+             exe-1049896 [001] ..... 1635314.570541: tracing_mark_write: mknod(filename="/victims/usr/share/doc/mount/examples", mode=0, dev=0xf48d17bfa109c) start
+             exe-1049896 [001] ..... 1635314.570543: sys_pwrite64 -> 0x5a
+             exe-1049896 [001] ..... 1635314.570549: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570552: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570554: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570564: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570566: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [001] ..... 1635314.570577: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570580: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [002] ..... 1635314.570597: sys_write -> 0x5a
+             exe-1049896 [001] ..... 1635314.570615: sys_wait4 -> 0x100787
+             exe-1049896 [001] ..... 1635314.570618: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570620: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570622: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570625: sys_ptrace -> 0x0
+             exe-1049673 [001] ..... 1635314.570700: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635314.570720: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [001] ..... 1635314.570769: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570774: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570776: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570792: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570794: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [001] ..... 1635314.570811: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570815: sys_wait4(upid: 100787, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050503 [002] ..... 1635314.570823: sys_mknod -> 0xffffffffffffffef
+             exe-1049896 [001] ..... 1635314.570836: sys_wait4 -> 0x100787
+             exe-1049896 [001] ..... 1635314.570839: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570844: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570846: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000699c70)
+             exe-1049896 [001] ..... 1635314.570849: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1635314.570865: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 58, pos: 5a)
+             exe-1049896 [001] ..... 1635314.570868: tracing_mark_write: mknod(filename="/victims/usr/share/doc/mount/examples", mode=0, dev=0xf48d17bfa109c) end
+             exe-1049722 [001] ..... 1635314.638225: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/share/man/man1", mode=0, dev=0x69302e5537) start
+             exe-1049722 [001] ..... 1635314.638227: sys_pwrite64 -> 0x5c
+             exe-1049722 [001] ..... 1635314.638236: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638239: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638241: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638257: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638259: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] ..... 1635314.638279: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638282: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050099 [003] ..... 1635314.638290: sys_write -> 0x5c
+             exe-1049722 [001] ..... 1635314.638312: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.638315: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638318: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638320: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638322: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638424: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638428: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638430: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638445: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638447: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] ..... 1635314.638461: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638464: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050099 [003] ..... 1635314.638474: sys_mknod -> 0xffffffffffffffef
+             exe-1049722 [001] ..... 1635314.638493: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.638497: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638502: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638503: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.638506: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.638516: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 5a, pos: 5c)
+             exe-1049722 [001] ..... 1635314.638518: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/share/man/man1", mode=0, dev=0x69302e5537) end
+             exe-1049722 [001] ..... 1635314.708378: tracing_mark_write: mknod(filename="/victims/usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/STerm", mode=2070, dev=0x99999999) start
+             exe-1049722 [001] ..... 1635314.708380: sys_pwrite64 -> 0x70
+             exe-1049722 [001] ..... 1635314.708385: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708387: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708389: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708397: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708398: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] ..... 1635314.708409: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708411: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050099 [000] ..... 1635314.708424: sys_write -> 0x70
+             exe-1049722 [001] ..... 1635314.708440: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.708442: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708444: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708445: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708448: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708489: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708491: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708493: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708502: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708503: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] ..... 1635314.708513: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708515: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050099 [000] ..... 1635314.708529: sys_mknod -> 0xffffffffffffffef
+             exe-1049722 [001] ..... 1635314.708545: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.708547: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708550: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708552: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.708554: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.708561: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 6e, pos: 70)
+             exe-1049722 [001] ..... 1635314.708563: tracing_mark_write: mknod(filename="/victims/usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/STerm", mode=2070, dev=0x99999999) end
+             exe-1049722 [001] ..... 1635314.770339: tracing_mark_write: mknod(filename="/victims/usr/share/doc/libjbig0", mode=0, dev=0xffffefff) start
+             exe-1049722 [001] ..... 1635314.770340: sys_pwrite64 -> 0x4f
+             exe-1049722 [001] ..... 1635314.770348: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] .N... 1635314.770376: sys_ptrace -> 0x0
+             exe-1049567 [000] ..... 1635314.770410: sys_nanosleep -> 0x0
+             exe-1049722 [001] ..... 1635314.770416: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049567 [000] ..... 1635314.770416: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.770431: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.770433: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635314.770440: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635314.770452: sys_write -> 0x4f
+             exe-1049722 [001] ..... 1635314.770539: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.770542: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.770544: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.770549: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.770550: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.770553: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.770582: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+           <...>-531629  [000] ..... 1635314.770610: sys_epoll_wait -> 0x1
+             exe-1049722 [001] .N... 1635314.770610: sys_ptrace -> 0x0
+           <...>-531629  [000] ..... 1635314.770633: sys_recvmsg(fd: 26, msg: 7ffeaf202440, flags: 40000000)
+           <...>-531629  [000] ..... 1635314.770650: sys_recvmsg -> 0xdb
+             exe-1049722 [001] ..... 1635314.770651: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.770666: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.770668: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635314.770675: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635314.770687: sys_mknod -> 0xffffffffffffffef
+             exe-1049722 [001] ..... 1635314.770774: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.770777: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.770779: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.770786: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.770788: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.770791: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.770807: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 4d, pos: 4f)
+             exe-1049722 [001] ..... 1635314.770809: tracing_mark_write: mknod(filename="/victims/usr/share/doc/libjbig0", mode=0, dev=0xffffefff) end
+             exe-1049722 [001] ..... 1635314.826775: tracing_mark_write: mknod(filename="/victims/usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/BidiM", mode=22, dev=0) start
+             exe-1049722 [001] ..... 1635314.826777: sys_pwrite64 -> 0x65
+             exe-1049673 [000] ..... 1635314.826779: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.826783: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [002] ..... 1635314.826784: sys_nanosleep(rqtp: c00063bd60, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.826789: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.826793: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.826795: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.826811: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.826813: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635314.826819: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635314.826829: sys_write -> 0x65
+             exe-1049722 [001] ..... 1635314.826852: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.826856: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.826859: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.826863: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.826865: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.826868: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1635314.826872: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.826874: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [002] ..... 1635314.826878: sys_nanosleep -> 0x0
+             exe-1049981 [002] ..... 1635314.826884: sys_futex(uaddr: c0049c7548, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049981 [002] ..... 1635314.826891: sys_futex -> 0x1
+             exe-1049722 [001] ..... 1635314.826898: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.826901: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1635314.826902: sys_futex(uaddr: c00097a548, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049722 [001] ..... 1635314.826903: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1050289 [000] ..... 1635314.826906: sys_futex -> 0x0
+             exe-1049722 [001] ..... 1635314.826916: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.826918: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1050289 [000] ..... 1635314.826919: sys_futex(uaddr: c0049c7548, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049722 [001] .N... 1635314.826926: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635314.826938: sys_mknod -> 0xffffffffffffffef
+             exe-1049722 [001] ..... 1635314.826959: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.826962: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.826964: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.826968: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.826970: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.826973: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1635314.826981: sys_nanosleep -> 0x0
+             exe-1049722 [001] ..... 1635314.826985: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 63, pos: 65)
+             exe-1049673 [000] ..... 1635314.826987: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.826988: tracing_mark_write: mknod(filename="/victims/usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/BidiM", mode=22, dev=0) end
+             exe-1049722 [001] ..... 1635314.894202: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/In", mode=2, dev=255) start
+             exe-1049722 [001] ..... 1635314.894204: sys_pwrite64 -> 0x72
+             exe-1049722 [001] ..... 1635314.894212: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.894215: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.894217: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.894230: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.894232: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635314.894240: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635314.894252: sys_write -> 0x72
+             exe-1049722 [001] ..... 1635314.894272: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.894275: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.894277: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049567 [003] ..... 1635314.894279: sys_nanosleep -> 0x0
+             exe-1049722 [001] ..... 1635314.894281: sys_ptrace -> 0x0
+             exe-1049567 [003] ..... 1635314.894281: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.894283: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.894285: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.894414: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.894418: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.894420: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.894434: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.894436: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635314.894445: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635314.894457: sys_mknod -> 0xffffffffffffffef
+             exe-1049567 [003] ..... 1635314.894515: sys_nanosleep -> 0x0
+             exe-1049567 [003] ..... 1635314.894517: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.894558: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.894562: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.894565: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.894571: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.894572: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.894576: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.894594: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 70, pos: 72)
+             exe-1049722 [001] ..... 1635314.894598: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/In", mode=2, dev=255) end
+             exe-1049722 [001] ..... 1635314.958232: tracing_mark_write: mknod(filename="/victims/usr/share/man/pt/man5", mode=770, dev=0x2000000) start
+             exe-1049722 [001] ..... 1635314.958233: sys_pwrite64 -> 0x4f
+             exe-1049673 [000] ..... 1635314.958247: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.958250: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.958313: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.958317: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.958319: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049673 [000] ..... 1635314.958335: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.958337: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.958339: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.958341: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635314.958348: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1635314.958423: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.958425: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050099 [001] ..... 1635314.958427: sys_write -> 0x4f
+             exe-1049722 [001] ..... 1635314.958452: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.958456: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.958459: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.958463: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.958465: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.958468: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1635314.958512: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.958514: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [001] ..... 1635314.958552: sys_epoll_pwait -> 0x0
+             exe-1049896 [001] ..... 1635314.958564: sys_epoll_pwait(epfd: 11, events: c000599840, maxevents: 80, timeout: 1, sigmask: 0, sigsetsize: 0)
+             exe-1049673 [000] ..... 1635314.958600: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.958602: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [000] ..... 1635314.958726: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.958728: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.958794: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.958799: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.958801: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.958821: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.958823: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635314.958853: sys_ptrace -> 0x0
+             exe-1049567 [003] ..... 1635314.958855: sys_nanosleep -> 0x0
+             exe-1049567 [003] ..... 1635314.958858: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [000] ..... 1635314.958874: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635314.958876: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050099 [001] ..... 1635314.958894: sys_mknod -> 0xffffffffffffffef
+             exe-1049722 [001] ..... 1635314.958921: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635314.958925: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635314.958927: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.958932: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635314.958934: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635314.958937: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1635314.959116: sys_nanosleep -> 0x0
+             exe-1049722 [001] ..... 1635314.959116: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 4d, pos: 4f)
+             exe-1049673 [000] ..... 1635314.959118: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1635314.959120: tracing_mark_write: mknod(filename="/victims/usr/share/man/pt/man5", mode=770, dev=0x2000000) end
+             exe-1049722 [001] ..... 1635315.024128: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/share/doc/libpcre3", mode=0, dev=0xcdcdcdcd) start
+             exe-1049722 [001] ..... 1635315.024130: sys_pwrite64 -> 0x5e
+             exe-1049722 [001] ..... 1635315.024138: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024140: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024142: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024183: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024186: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635315.024193: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635315.024206: sys_write -> 0x5e
+             exe-1049722 [001] ..... 1635315.024232: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635315.024235: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635315.024237: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024240: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024242: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024244: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024428: sys_futex(uaddr: 7fd66a44d000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049722 [001] ..... 1635315.024460: sys_futex -> 0x1
+             exe-1049722 [001] ..... 1635315.024465: sys_futex(uaddr: 7fd66a44d000, op: 0, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049688 [000] ..... 1635315.024571: sys_futex -> 0x0
+             exe-1049688 [000] ..... 1635315.024601: sys_openat(dfd: 306, filename: c00071adb2, flags: a0800, mode: 0)
+             exe-1049688 [000] ..... 1635315.024636: sys_openat -> 0x8cf
+             exe-1049688 [000] ..... 1635315.024639: sys_newfstat(fd: 8cf, statbuf: c0004c5638)
+             exe-1049688 [000] ..... 1635315.024644: sys_newfstat -> 0x0
+             exe-1049688 [000] ..... 1635315.024663: sys_futex(uaddr: 7febabcd3000, op: 1, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049688 [000] ..... 1635315.024685: sys_futex -> 0x1
+             exe-1049688 [000] ..... 1635315.024687: sys_futex(uaddr: 7febabcd3000, op: 0, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049722 [001] ..... 1635315.024760: sys_futex -> 0x0
+             exe-1049722 [001] ..... 1635315.024803: sys_ptrace(request: 4205, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024808: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024809: sys_ptrace(request: 4205, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024825: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024826: sys_ptrace(request: 1f, pid: 1005f3, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1635315.024834: sys_ptrace -> 0x0
+             exe-1050099 [001] ..... 1635315.024847: sys_mknod -> 0xffffffffffffffef
+             exe-1049722 [001] ..... 1635315.024870: sys_wait4(upid: 1005f3, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1635315.024873: sys_wait4 -> 0x1005f3
+             exe-1049722 [001] ..... 1635315.024875: sys_ptrace(request: 4204, pid: 1005f3, addr: 1, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024879: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024880: sys_ptrace(request: 4204, pid: 1005f3, addr: 202, data: c000699c70)
+             exe-1049722 [001] ..... 1635315.024882: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1635315.024897: sys_pwrite64(fd: 63, buf: 7fd66e3f7080, count: 5c, pos: 5e)
+             exe-1049722 [001] ..... 1635315.024900: tracing_mark_write: mknod(filename="/victims/proc/self/root/usr/share/doc/libpcre3", mode=0, dev=0xcdcdcdcd) end

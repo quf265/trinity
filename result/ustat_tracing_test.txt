@@ -1,0 +1,34 @@
+             exe-1050233 [001] ..... 1637276.601707: tracing_mark_write: ustat(dev=18, ubuf=0x8) start
+             exe-1050233 [001] ..... 1637276.601745: sys_pwrite64 -> 0x1d
+             exe-1050233 [001] ..... 1637276.601750: sys_ptrace(request: 4205, pid: 100696, addr: 1, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601752: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1637276.601753: sys_ptrace(request: 4205, pid: 100696, addr: 202, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601760: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1637276.601761: sys_ptrace(request: 1f, pid: 100696, addr: 0, data: 0)
+             exe-1050233 [001] .N... 1637276.601764: sys_ptrace -> 0x0
+             exe-1050262 [001] ..... 1637276.601772: sys_write -> 0x1d
+             exe-1049673 [002] ..... 1637276.601777: sys_nanosleep -> 0x0
+             exe-1049673 [002] ..... 1637276.601779: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050233 [001] ..... 1637276.601785: sys_wait4(upid: 100696, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050233 [001] ..... 1637276.601787: sys_wait4 -> 0x100696
+             exe-1050233 [001] ..... 1637276.601788: sys_ptrace(request: 4204, pid: 100696, addr: 1, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601790: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1637276.601791: sys_ptrace(request: 4204, pid: 100696, addr: 202, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601792: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1637276.601815: sys_ptrace(request: 4205, pid: 100696, addr: 1, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601817: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1637276.601818: sys_ptrace(request: 4205, pid: 100696, addr: 202, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601825: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1637276.601826: sys_ptrace(request: 1f, pid: 100696, addr: 0, data: 0)
+             exe-1050233 [001] .N... 1637276.601830: sys_ptrace -> 0x0
+             exe-1050262 [001] ..... 1637276.601838: sys_ustat -> 0xffffffffffffffda
+             exe-1050233 [001] ..... 1637276.601851: sys_wait4(upid: 100696, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050233 [001] ..... 1637276.601852: sys_wait4 -> 0x100696
+             exe-1050233 [001] ..... 1637276.601854: sys_ptrace(request: 4204, pid: 100696, addr: 1, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601856: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1637276.601857: sys_ptrace(request: 4204, pid: 100696, addr: 202, data: c0004bdc70)
+             exe-1050233 [001] ..... 1637276.601858: sys_ptrace -> 0x0
+             exe-1049673 [002] ..... 1637276.601859: sys_nanosleep -> 0x0
+             exe-1049673 [002] ..... 1637276.601860: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050233 [001] ..... 1637276.601864: sys_pwrite64(fd: 63, buf: 7fd66e192080, count: 1b, pos: 1d)
+             exe-1050233 [001] ..... 1637276.601865: tracing_mark_write: ustat(dev=18, ubuf=0x8) end

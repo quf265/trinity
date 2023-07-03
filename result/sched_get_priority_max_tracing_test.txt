@@ -1,0 +1,68 @@
+             exe-1050233 [003] ..... 1636182.195460: tracing_mark_write: sched_get_priority_max(policy=32) start
+             exe-1050233 [003] ..... 1636182.195462: sys_pwrite64 -> 0x27
+             exe-1050233 [003] ..... 1636182.195468: sys_ptrace(request: 4205, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.195470: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195471: sys_ptrace(request: 4205, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.195480: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195482: sys_ptrace(request: 1f, pid: 10070a, addr: 0, data: 0)
+             exe-1050233 [003] ..... 1636182.195487: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195488: sys_wait4(upid: 10070a, stat_addr: c0022e3bf4, options: 40000002, ru: 0)
+             exe-1050378 [003] ..... 1636182.195498: sys_write -> 0x27
+             exe-1050233 [003] ..... 1636182.195515: sys_wait4 -> 0x10070a
+             exe-1050233 [003] ..... 1636182.195517: sys_ptrace(request: 4204, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.195520: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195522: sys_ptrace(request: 4204, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.195523: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195538: sys_ptrace(request: 4205, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.195540: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195541: sys_ptrace(request: 4205, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1049673 [000] ..... 1636182.195548: sys_nanosleep -> 0x0
+             exe-1050233 [003] ..... 1636182.195550: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195551: sys_ptrace(request: 1f, pid: 10070a, addr: 0, data: 0)
+             exe-1049673 [000] ..... 1636182.195552: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050233 [003] ..... 1636182.195556: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195557: sys_wait4(upid: 10070a, stat_addr: c0022e3bf4, options: 40000002, ru: 0)
+             exe-1050378 [003] ..... 1636182.195567: sys_sched_get_priority_max -> 0x0
+             exe-1050233 [003] ..... 1636182.195584: sys_wait4 -> 0x10070a
+             exe-1050233 [003] ..... 1636182.195586: sys_ptrace(request: 4204, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.195598: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195599: sys_ptrace(request: 4204, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.195601: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.195618: sys_pwrite64(fd: 63, buf: 7fd66e21d080, count: 25, pos: 27)
+             exe-1050233 [003] ..... 1636182.195620: tracing_mark_write: sched_get_priority_max(policy=32) end
+             exe-1050233 [003] ..... 1636182.255645: tracing_mark_write: sched_get_priority_max(policy=0xffffefff) start
+             exe-1050233 [003] ..... 1636182.255647: sys_pwrite64 -> 0x2f
+             exe-1050233 [003] ..... 1636182.255652: sys_ptrace(request: 4205, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.255654: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255656: sys_ptrace(request: 4205, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.255663: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255665: sys_ptrace(request: 1f, pid: 10070a, addr: 0, data: 0)
+             exe-1050233 [003] ..... 1636182.255674: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1636182.255674: sys_nanosleep -> 0x0
+             exe-1050233 [003] ..... 1636182.255676: sys_wait4(upid: 10070a, stat_addr: c0022e3bf4, options: 40000002, ru: 0)
+             exe-1049673 [000] ..... 1636182.255677: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050378 [001] ..... 1636182.255696: sys_write -> 0x2f
+             exe-1050233 [003] ..... 1636182.255713: sys_wait4 -> 0x10070a
+             exe-1050233 [003] ..... 1636182.255715: sys_ptrace(request: 4204, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1049673 [000] ..... 1636182.255769: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1636182.255773: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050233 [003] ..... 1636182.255793: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255797: sys_ptrace(request: 4204, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.255801: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255808: sys_ptrace(request: 4205, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.255811: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255812: sys_ptrace(request: 4205, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.255842: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255845: sys_ptrace(request: 1f, pid: 10070a, addr: 0, data: 0)
+             exe-1050233 [003] ..... 1636182.255857: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255861: sys_wait4(upid: 10070a, stat_addr: c0022e3bf4, options: 40000002, ru: 0)
+             exe-1050378 [001] ..... 1636182.255872: sys_sched_get_priority_max -> 0x0
+             exe-1049673 [000] ..... 1636182.255879: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1636182.255883: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050233 [003] ..... 1636182.255891: sys_wait4 -> 0x10070a
+             exe-1050233 [003] ..... 1636182.255894: sys_ptrace(request: 4204, pid: 10070a, addr: 1, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.255897: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255898: sys_ptrace(request: 4204, pid: 10070a, addr: 202, data: c0022e3c70)
+             exe-1050233 [003] ..... 1636182.255900: sys_ptrace -> 0x0
+             exe-1050233 [003] ..... 1636182.255913: sys_pwrite64(fd: 63, buf: 7fd66e21d080, count: 2d, pos: 2f)
+             exe-1050233 [003] ..... 1636182.255915: tracing_mark_write: sched_get_priority_max(policy=0xffffefff) end

@@ -1,0 +1,38 @@
+             exe-1050232 [000] ..... 1635380.081959: tracing_mark_write: mount_setattr(dfd=279, path="/victims/usr/lib/x86_64-linux-gnu/perl/5.34.0/CORE", flags=0x7f30ee419ce0, uattr=0x0, usize=1) start
+             exe-1050232 [000] ..... 1635380.081966: sys_pwrite64 -> 0x81
+             exe-1050232 [000] ..... 1635380.081971: sys_ptrace(request: 4205, pid: 1006b9, addr: 1, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.081974: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.081975: sys_ptrace(request: 4205, pid: 1006b9, addr: 202, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.081982: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.081984: sys_ptrace(request: 1f, pid: 1006b9, addr: 0, data: 0)
+             exe-1050232 [000] ..... 1635380.081991: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.081993: sys_wait4(upid: 1006b9, stat_addr: c00063fbf4, options: 40000002, ru: 0)
+             exe-1049673 [001] ..... 1635380.082012: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635380.082014: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [001] ..... 1635380.082103: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635380.082106: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050297 [003] ..... 1635380.082194: sys_write -> 0x81
+             exe-1049673 [001] ..... 1635380.082195: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635380.082197: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050232 [000] ..... 1635380.082234: sys_wait4 -> 0x1006b9
+             exe-1050232 [000] ..... 1635380.082237: sys_ptrace(request: 4204, pid: 1006b9, addr: 1, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.082240: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.082241: sys_ptrace(request: 4204, pid: 1006b9, addr: 202, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.082243: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.082259: sys_ptrace(request: 4205, pid: 1006b9, addr: 1, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.082262: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.082263: sys_ptrace(request: 4205, pid: 1006b9, addr: 202, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.082271: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.082272: sys_ptrace(request: 1f, pid: 1006b9, addr: 0, data: 0)
+             exe-1050232 [000] ..... 1635380.082279: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.082281: sys_wait4(upid: 1006b9, stat_addr: c00063fbf4, options: 40000002, ru: 0)
+             exe-1049673 [001] ..... 1635380.082286: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635380.082288: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050297 [003] ..... 1635380.082307: sys_mount_setattr -> 0xffffffffffffffda
+             exe-1050232 [000] ..... 1635380.082341: sys_wait4 -> 0x1006b9
+             exe-1050232 [000] ..... 1635380.082343: sys_ptrace(request: 4204, pid: 1006b9, addr: 1, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.082346: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.082347: sys_ptrace(request: 4204, pid: 1006b9, addr: 202, data: c00063fc70)
+             exe-1050232 [000] ..... 1635380.082349: sys_ptrace -> 0x0
+             exe-1050232 [000] ..... 1635380.082355: sys_pwrite64(fd: 63, buf: 7fd66efbd080, count: 7f, pos: 81)
+             exe-1050232 [000] ..... 1635380.082357: tracing_mark_write: mount_setattr(dfd=279, path="/victims/usr/lib/x86_64-linux-gnu/perl/5.34.0/CORE", flags=0x7f30ee419ce0, uattr=0x0, usize=1) end

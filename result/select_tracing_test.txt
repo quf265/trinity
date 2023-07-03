@@ -1,0 +1,84 @@
+             exe-1050232 [001] ..... 1636380.516268: tracing_mark_write: select(n=1023, inp=0x55d57f8d1a70, outp=0x55d57f8d1b00, exp=0x55d57f8d1b90, tvp=0x55d57f85c990) start
+             exe-1050232 [001] ..... 1636380.516274: sys_pwrite64 -> 0x65
+             exe-1049673 [001] ..... 1636380.516310: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1636380.516315: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050232 [001] ..... 1636380.516335: sys_ptrace(request: 4205, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516339: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516340: sys_ptrace(request: 4205, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516355: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516356: sys_ptrace(request: 1f, pid: 1006b9, addr: 0, data: 0)
+             exe-1050232 [001] ..... 1636380.516368: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516371: sys_wait4(upid: 1006b9, stat_addr: c0022e7bf4, options: 40000002, ru: 0)
+             exe-1050297 [003] ..... 1636380.516384: sys_write -> 0x65
+             exe-1049673 [001] ..... 1636380.516434: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1636380.516439: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050232 [001] ..... 1636380.516461: sys_wait4 -> 0x1006b9
+             exe-1050232 [001] ..... 1636380.516466: sys_ptrace(request: 4204, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516471: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516472: sys_ptrace(request: 4204, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516475: sys_ptrace -> 0x0
+             exe-1049673 [001] ..... 1636380.516540: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1636380.516545: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050526 [002] ..... 1636380.516569: sys_futex -> 0x0
+             exe-1050526 [002] ..... 1636380.516576: sys_futex(uaddr: c000466948, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1050232 [001] ..... 1636380.516585: sys_ptrace(request: 4205, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516588: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516590: sys_ptrace(request: 4205, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516604: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516605: sys_ptrace(request: 1f, pid: 1006b9, addr: 0, data: 0)
+             exe-1050232 [001] ..... 1636380.516613: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516616: sys_wait4(upid: 1006b9, stat_addr: c0022e7bf4, options: 40000002, ru: 0)
+             exe-1049673 [001] ..... 1636380.516644: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1636380.516650: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1050297 [003] ..... 1636380.516842: sys_select -> 0x2
+             exe-1050232 [001] ..... 1636380.516877: sys_wait4 -> 0x1006b9
+             exe-1050232 [001] ..... 1636380.516883: sys_ptrace(request: 4204, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516886: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516888: sys_ptrace(request: 4204, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [001] ..... 1636380.516890: sys_ptrace -> 0x0
+             exe-1050232 [001] ..... 1636380.516902: sys_pwrite64(fd: 63, buf: 7fd66ee04080, count: 63, pos: 65)
+             exe-1050232 [001] ..... 1636380.516904: tracing_mark_write: select(n=1023, inp=0x55d57f8d1a70, outp=0x55d57f8d1b00, exp=0x55d57f8d1b90, tvp=0x55d57f85c990) end
+             exe-1050232 [003] ..... 1636380.579279: tracing_mark_write: select(n=1019, inp=0x55d57f8d1b90, outp=0x55d57f8d1b00, exp=0x55d57f8d1a70, tvp=0x55d57f85c990) start
+             exe-1050232 [003] ..... 1636380.579281: sys_pwrite64 -> 0x65
+             exe-1050232 [003] ..... 1636380.579288: sys_ptrace(request: 4205, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [003] .N... 1636380.579317: sys_ptrace -> 0x0
+             exe-1050232 [003] ..... 1636380.579360: sys_ptrace(request: 4205, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [003] ..... 1636380.579376: sys_ptrace -> 0x0
+             exe-1050232 [003] ..... 1636380.579378: sys_ptrace(request: 1f, pid: 1006b9, addr: 0, data: 0)
+             exe-1050232 [003] .N... 1636380.579385: sys_ptrace -> 0x0
+             exe-1050297 [003] ..... 1636380.579398: sys_write -> 0x65
+             exe-1050232 [003] ..... 1636380.579509: sys_wait4(upid: 1006b9, stat_addr: c0022e7bf4, options: 40000002, ru: 0)
+             exe-1050232 [003] ..... 1636380.579512: sys_wait4 -> 0x1006b9
+             exe-1050232 [003] ..... 1636380.579515: sys_ptrace(request: 4204, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [003] ..... 1636380.579519: sys_ptrace -> 0x0
+             exe-1050232 [003] ..... 1636380.579521: sys_ptrace(request: 4204, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [003] ..... 1636380.579523: sys_ptrace -> 0x0
+             exe-1050232 [003] ..... 1636380.579666: sys_epoll_ctl(epfd: 3e, op: 1, fd: 43f, event: c0022e744c)
+             exe-1050232 [003] ..... 1636380.579765: sys_epoll_ctl -> 0x0
+             exe-1050232 [003] ..... 1636380.579771: sys_ppoll(ufds: c0022e74d0, nfds: 1, tsp: c0022e74d8, sigmask: 0, sigsetsize: 0)
+             exe-1050232 [003] ..... 1636380.579775: sys_ppoll -> 0x0
+             exe-1050232 [003] ..... 1636380.579779: sys_epoll_ctl(epfd: 3e, op: 3, fd: 43f, event: c0022e744c)
+             exe-1050232 [003] ..... 1636380.579781: sys_epoll_ctl -> 0x0
+             exe-1050232 [003] ..... 1636380.579783: sys_ppoll(ufds: c0022e74d0, nfds: 1, tsp: c0022e74d8, sigmask: 0, sigsetsize: 0)
+             exe-1050232 [003] ..... 1636380.579784: sys_ppoll -> 0x0
+             exe-1050232 [003] ..... 1636380.579893: sys_epoll_ctl(epfd: 3e, op: 3, fd: 43f, event: c0022e7434)
+             exe-1050232 [003] ..... 1636380.579897: sys_epoll_ctl -> 0x0
+             exe-1050232 [003] ..... 1636380.579899: sys_epoll_ctl(epfd: 3e, op: 2, fd: 43f, event: 0)
+             exe-1050232 [003] ..... 1636380.579903: sys_epoll_ctl -> 0x0
+             exe-1050232 [003] ..... 1636380.579982: sys_ptrace(request: 4205, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [003] ..... 1636380.579987: sys_ptrace -> 0x0
+             exe-1050232 [003] ..... 1636380.579989: sys_ptrace(request: 4205, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [003] ..... 1636380.580004: sys_ptrace -> 0x0
+             exe-1050232 [003] ..... 1636380.580005: sys_ptrace(request: 1f, pid: 1006b9, addr: 0, data: 0)
+             exe-1050232 [003] .N... 1636380.580012: sys_ptrace -> 0x0
+             exe-1050297 [003] ..... 1636380.580025: sys_select -> 0x4
+             exe-1050232 [003] ..... 1636380.580119: sys_wait4(upid: 1006b9, stat_addr: c0022e7bf4, options: 40000002, ru: 0)
+             exe-1050232 [003] ..... 1636380.580122: sys_wait4 -> 0x1006b9
+             exe-1050232 [003] ..... 1636380.580125: sys_ptrace(request: 4204, pid: 1006b9, addr: 1, data: c0022e7c70)
+             exe-1050232 [003] ..... 1636380.580130: sys_ptrace -> 0x0
+             exe-1050232 [003] ..... 1636380.580131: sys_ptrace(request: 4204, pid: 1006b9, addr: 202, data: c0022e7c70)
+             exe-1050232 [003] ..... 1636380.580134: sys_ptrace -> 0x0
+             exe-1049567 [002] ..... 1636380.580222: sys_nanosleep -> 0x0
+             exe-1050232 [003] ..... 1636380.580226: sys_pwrite64(fd: 63, buf: 7fd66ee04080, count: 63, pos: 65)
+             exe-1049567 [002] ..... 1636380.580228: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050232 [003] ..... 1636380.580229: tracing_mark_write: select(n=1019, inp=0x55d57f8d1b90, outp=0x55d57f8d1b00, exp=0x55d57f8d1a70, tvp=0x55d57f85c990) end

@@ -1,0 +1,34 @@
+             exe-1050289 [001] ..... 1635101.109456: tracing_mark_write: landlock_create_ruleset(attr=91, size=2, flags=0x7f46b7419cf0) start
+             exe-1050289 [001] ..... 1635101.109466: sys_pwrite64 -> 0x44
+             exe-1050289 [001] ..... 1635101.109471: sys_ptrace(request: 4205, pid: 1006f2, addr: 1, data: c000641c70)
+             exe-1050289 [001] ..... 1635101.109473: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109474: sys_ptrace(request: 4205, pid: 1006f2, addr: 202, data: c000641c70)
+             exe-1050289 [001] ..... 1635101.109480: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109481: sys_ptrace(request: 1f, pid: 1006f2, addr: 0, data: 0)
+             exe-1050289 [001] ..... 1635101.109488: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109489: sys_wait4(upid: 1006f2, stat_addr: c000641bf4, options: 40000002, ru: 0)
+             exe-1050354 [002] ..... 1635101.109501: sys_write -> 0x44
+             exe-1050289 [001] ..... 1635101.109514: sys_wait4 -> 0x1006f2
+             exe-1050289 [001] ..... 1635101.109515: sys_ptrace(request: 4204, pid: 1006f2, addr: 1, data: c000641c70)
+             exe-1050289 [001] ..... 1635101.109517: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109518: sys_ptrace(request: 4204, pid: 1006f2, addr: 202, data: c000641c70)
+             exe-1050289 [001] ..... 1635101.109520: sys_ptrace -> 0x0
+             exe-1049673 [003] ..... 1635101.109543: sys_futex -> 0x0
+             exe-1050289 [001] ..... 1635101.109552: sys_ptrace(request: 4205, pid: 1006f2, addr: 1, data: c000641c70)
+             exe-1049673 [003] ..... 1635101.109554: sys_futex(uaddr: c000303548, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1050289 [001] ..... 1635101.109554: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109555: sys_ptrace(request: 4205, pid: 1006f2, addr: 202, data: c000641c70)
+             exe-1050289 [001] ..... 1635101.109563: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109564: sys_ptrace(request: 1f, pid: 1006f2, addr: 0, data: 0)
+             exe-1049673 [003] ..... 1635101.109567: sys_futex -> 0x1
+             exe-1049673 [003] ..... 1635101.109569: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050289 [001] ..... 1635101.109571: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109572: sys_wait4(upid: 1006f2, stat_addr: c000641bf4, options: 40000002, ru: 0)
+             exe-1050354 [002] ..... 1635101.109594: sys_landlock_create_ruleset -> 0xffffffffffffffda
+             exe-1050289 [001] ..... 1635101.109606: sys_wait4 -> 0x1006f2
+             exe-1050289 [001] ..... 1635101.109608: sys_ptrace(request: 4204, pid: 1006f2, addr: 1, data: c000641c70)
+             exe-1050289 [001] ..... 1635101.109610: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109611: sys_ptrace(request: 4204, pid: 1006f2, addr: 202, data: c000641c70)
+             exe-1050289 [001] ..... 1635101.109613: sys_ptrace -> 0x0
+             exe-1050289 [001] ..... 1635101.109617: sys_pwrite64(fd: 63, buf: 7fd66e1ef060, count: 42, pos: 44)
+             exe-1050289 [001] ..... 1635101.109625: tracing_mark_write: landlock_create_ruleset(attr=91, size=2, flags=0x7f46b7419cf0) end

@@ -1,0 +1,32 @@
+             exe-1049896 [003] ..... 1634914.843509: tracing_mark_write: io_uring_setup(entries=8, params=0x1) start
+             exe-1049896 [003] ..... 1634914.843518: sys_pwrite64 -> 0x2b
+             exe-1049896 [003] ..... 1634914.843521: sys_ptrace(request: 4205, pid: 10074e, addr: 1, data: c000699c70)
+             exe-1049673 [000] ..... 1634914.843526: sys_nanosleep -> 0x0
+             exe-1049896 [003] ..... 1634914.843526: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843527: sys_ptrace(request: 4205, pid: 10074e, addr: 202, data: c000699c70)
+             exe-1049673 [000] ..... 1634914.843530: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [003] ..... 1634914.843532: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843533: sys_ptrace(request: 1f, pid: 10074e, addr: 0, data: 0)
+             exe-1049896 [003] ..... 1634914.843538: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843539: sys_wait4(upid: 10074e, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050446 [000] ..... 1634914.843550: sys_write -> 0x2b
+             exe-1049896 [003] ..... 1634914.843563: sys_wait4 -> 0x10074e
+             exe-1049896 [003] ..... 1634914.843564: sys_ptrace(request: 4204, pid: 10074e, addr: 1, data: c000699c70)
+             exe-1049896 [003] ..... 1634914.843566: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843566: sys_ptrace(request: 4204, pid: 10074e, addr: 202, data: c000699c70)
+             exe-1049896 [003] ..... 1634914.843568: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843571: sys_ptrace(request: 4205, pid: 10074e, addr: 1, data: c000699c70)
+             exe-1049896 [003] ..... 1634914.843572: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843573: sys_ptrace(request: 4205, pid: 10074e, addr: 202, data: c000699c70)
+             exe-1049896 [003] ..... 1634914.843577: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843578: sys_ptrace(request: 1f, pid: 10074e, addr: 0, data: 0)
+             exe-1049896 [003] ..... 1634914.843581: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843582: sys_wait4(upid: 10074e, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050446 [000] ..... 1634914.843588: sys_io_uring_setup -> 0xffffffffffffffda
+             exe-1049896 [003] ..... 1634914.843597: sys_wait4 -> 0x10074e
+             exe-1049896 [003] ..... 1634914.843598: sys_ptrace(request: 4204, pid: 10074e, addr: 1, data: c000699c70)
+             exe-1049896 [003] ..... 1634914.843599: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843600: sys_ptrace(request: 4204, pid: 10074e, addr: 202, data: c000699c70)
+             exe-1049896 [003] ..... 1634914.843602: sys_ptrace -> 0x0
+             exe-1049896 [003] ..... 1634914.843605: sys_pwrite64(fd: 63, buf: 7fd66ee3c080, count: 29, pos: 2b)
+             exe-1049896 [003] ..... 1634914.843606: tracing_mark_write: io_uring_setup(entries=8, params=0x1) end

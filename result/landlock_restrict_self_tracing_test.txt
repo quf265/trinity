@@ -1,0 +1,34 @@
+             exe-1049722 [002] ..... 1635109.286573: tracing_mark_write: landlock_restrict_self(fd=66, flags=0x28010bac4ae7c) start
+             exe-1049722 [002] ..... 1635109.286578: sys_pwrite64 -> 0x3a
+             exe-1049722 [002] ..... 1635109.286582: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286583: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286584: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286589: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286590: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [002] ..... 1635109.286595: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286596: sys_wait4(upid: 100616, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1049673 [000] ..... 1635109.286597: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635109.286598: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050134 [001] ..... 1635109.286601: sys_write -> 0x3a
+             exe-1049722 [002] ..... 1635109.286610: sys_wait4 -> 0x100616
+             exe-1049722 [002] ..... 1635109.286612: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286614: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286614: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286616: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286634: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286636: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286637: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286642: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286643: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [002] ..... 1635109.286647: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286648: sys_wait4(upid: 100616, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1050134 [001] ..... 1635109.286661: sys_landlock_restrict_self -> 0xffffffffffffffda
+             exe-1049722 [002] ..... 1635109.286674: sys_wait4 -> 0x100616
+             exe-1049722 [002] ..... 1635109.286676: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286678: sys_ptrace -> 0x0
+             exe-1049722 [002] ..... 1635109.286679: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0005d3c70)
+             exe-1049722 [002] ..... 1635109.286680: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1635109.286681: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1635109.286682: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [002] ..... 1635109.286685: sys_pwrite64(fd: 63, buf: 7fd66edd9080, count: 38, pos: 3a)
+             exe-1049722 [002] ..... 1635109.286686: tracing_mark_write: landlock_restrict_self(fd=66, flags=0x28010bac4ae7c) end

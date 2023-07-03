@@ -1,0 +1,30 @@
+             exe-1050282 [003] ..... 1634023.001216: tracing_mark_write: copy_file_range(fd_in=273, off_in=1, fd_out=288, off_out=4096, len=0, flags=0x55c504f06aee) start
+             exe-1050282 [003] ..... 1634023.001229: sys_pwrite64 -> 0x61
+             exe-1050282 [003] ..... 1634023.001236: sys_ptrace(request: 4205, pid: 1006c5, addr: 1, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001238: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001240: sys_ptrace(request: 4205, pid: 1006c5, addr: 202, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001297: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001301: sys_ptrace(request: 1f, pid: 1006c5, addr: 0, data: 0)
+             exe-1050282 [003] ..... 1634023.001312: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001314: sys_wait4(upid: 1006c5, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1050309 [002] ..... 1634023.001319: sys_write -> 0x61
+             exe-1050282 [003] ..... 1634023.001329: sys_wait4 -> 0x1006c5
+             exe-1050282 [003] ..... 1634023.001332: sys_ptrace(request: 4204, pid: 1006c5, addr: 1, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001334: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001336: sys_ptrace(request: 4204, pid: 1006c5, addr: 202, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001338: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001430: sys_ptrace(request: 4205, pid: 1006c5, addr: 1, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001434: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001435: sys_ptrace(request: 4205, pid: 1006c5, addr: 202, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001453: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001455: sys_ptrace(request: 1f, pid: 1006c5, addr: 0, data: 0)
+             exe-1050282 [003] .N... 1634023.001479: sys_ptrace -> 0x0
+             exe-1050309 [002] ..... 1634023.001480: sys_copy_file_range -> 0xffffffffffffffda
+             exe-1050282 [003] ..... 1634023.001511: sys_wait4(upid: 1006c5, stat_addr: c0005d1bf4, options: 40000002, ru: 0)
+             exe-1050282 [003] ..... 1634023.001513: sys_wait4 -> 0x1006c5
+             exe-1050282 [003] ..... 1634023.001515: sys_ptrace(request: 4204, pid: 1006c5, addr: 1, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001518: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001520: sys_ptrace(request: 4204, pid: 1006c5, addr: 202, data: c0005d1c70)
+             exe-1050282 [003] ..... 1634023.001522: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1634023.001534: sys_pwrite64(fd: 63, buf: 7fd66f95b080, count: 5f, pos: 61)
+             exe-1050282 [003] ..... 1634023.001535: tracing_mark_write: copy_file_range(fd_in=273, off_in=1, fd_out=288, off_out=4096, len=0, flags=0x55c504f06aee) end

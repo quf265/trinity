@@ -1,0 +1,64 @@
+             exe-1049981 [002] ..... 1634712.165500: tracing_mark_write: gettimeofday(tv=0x7fe85ae00000, tz=0x7fe85ce8e000) start
+             exe-1049981 [002] ..... 1634712.165509: sys_pwrite64 -> 0x38
+             exe-1049981 [002] ..... 1634712.165514: sys_ptrace(request: 4205, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165516: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165517: sys_ptrace(request: 4205, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165525: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165526: sys_ptrace(request: 1f, pid: 1005d9, addr: 0, data: 0)
+             exe-1049981 [002] ..... 1634712.165530: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165532: sys_wait4(upid: 1005d9, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1050073 [000] ..... 1634712.165544: sys_write -> 0x38
+             exe-1049981 [002] ..... 1634712.165556: sys_wait4 -> 0x1005d9
+             exe-1049981 [002] ..... 1634712.165558: sys_ptrace(request: 4204, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165559: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165560: sys_ptrace(request: 4204, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165562: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165633: sys_ptrace(request: 4205, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165635: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165636: sys_ptrace(request: 4205, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165643: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165643: sys_ptrace(request: 1f, pid: 1005d9, addr: 0, data: 0)
+             exe-1049981 [002] ..... 1634712.165651: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165652: sys_wait4(upid: 1005d9, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1050073 [000] ..... 1634712.165676: sys_gettimeofday -> 0x0
+             exe-1049981 [002] ..... 1634712.165688: sys_wait4 -> 0x1005d9
+             exe-1049981 [002] ..... 1634712.165690: sys_ptrace(request: 4204, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165691: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165692: sys_ptrace(request: 4204, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049981 [002] ..... 1634712.165694: sys_ptrace -> 0x0
+             exe-1049981 [002] ..... 1634712.165699: sys_pwrite64(fd: 63, buf: 7fd66eca0080, count: 36, pos: 38)
+             exe-1049981 [002] ..... 1634712.165707: tracing_mark_write: gettimeofday(tv=0x7fe85ae00000, tz=0x7fe85ce8e000) end
+             exe-1049981 [003] ..... 1634712.237698: tracing_mark_write: gettimeofday(tv=0x7fe85ae00000, tz=0x7fe85ac00000) start
+             exe-1049981 [003] ..... 1634712.237714: sys_pwrite64 -> 0x38
+             exe-1049567 [000] ..... 1634712.237716: sys_nanosleep -> 0x0
+             exe-1049567 [000] ..... 1634712.237718: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1634712.237721: sys_ptrace(request: 4205, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [003] ..... 1634712.237724: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237726: sys_ptrace(request: 4205, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049673 [002] ..... 1634712.237727: sys_nanosleep -> 0x0
+             exe-1049673 [002] ..... 1634712.237731: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1634712.237734: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237736: sys_ptrace(request: 1f, pid: 1005d9, addr: 0, data: 0)
+             exe-1049981 [003] ..... 1634712.237746: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237748: sys_wait4(upid: 1005d9, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1050073 [001] ..... 1634712.237754: sys_write -> 0x38
+             exe-1049981 [003] ..... 1634712.237767: sys_wait4 -> 0x1005d9
+             exe-1049981 [003] ..... 1634712.237770: sys_ptrace(request: 4204, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [003] ..... 1634712.237772: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237774: sys_ptrace(request: 4204, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049981 [003] ..... 1634712.237776: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237881: sys_ptrace(request: 4205, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [003] ..... 1634712.237885: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237886: sys_ptrace(request: 4205, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049981 [003] ..... 1634712.237896: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237898: sys_ptrace(request: 1f, pid: 1005d9, addr: 0, data: 0)
+             exe-1049981 [003] ..... 1634712.237909: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237912: sys_wait4(upid: 1005d9, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1050073 [001] ..... 1634712.237917: sys_gettimeofday -> 0x0
+             exe-1049981 [003] ..... 1634712.237926: sys_wait4 -> 0x1005d9
+             exe-1049981 [003] ..... 1634712.237929: sys_ptrace(request: 4204, pid: 1005d9, addr: 1, data: c0005d3c70)
+             exe-1049981 [003] ..... 1634712.237931: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237933: sys_ptrace(request: 4204, pid: 1005d9, addr: 202, data: c0005d3c70)
+             exe-1049981 [003] ..... 1634712.237935: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1634712.237944: sys_pwrite64(fd: 63, buf: 7fd66eca0080, count: 36, pos: 38)
+             exe-1049981 [003] ..... 1634712.237946: tracing_mark_write: gettimeofday(tv=0x7fe85ae00000, tz=0x7fe85ac00000) end

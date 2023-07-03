@@ -1,0 +1,30 @@
+             exe-1050282 [003] ..... 1635388.485907: tracing_mark_write: move_mount(from_dfd=376, from_pathname="/victims/proc/self/root/usr/lib64", to_dfd=186, to_pathname="/victims/proc/self/root/usr/share/perl/5.34.0/unicore/lib/Lb", flags=0x1) start
+             exe-1050282 [003] ..... 1635388.485925: sys_pwrite64 -> 0xb4
+             exe-1050282 [003] ..... 1635388.485933: sys_ptrace(request: 4205, pid: 1006c5, addr: 1, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.485937: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.485939: sys_ptrace(request: 4205, pid: 1006c5, addr: 202, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.485951: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.485953: sys_ptrace(request: 1f, pid: 1006c5, addr: 0, data: 0)
+             exe-1050282 [003] ..... 1635388.485963: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.485965: sys_wait4(upid: 1006c5, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050309 [001] ..... 1635388.485976: sys_write -> 0xb4
+             exe-1050282 [003] ..... 1635388.485990: sys_wait4 -> 0x1006c5
+             exe-1050282 [003] ..... 1635388.485992: sys_ptrace(request: 4204, pid: 1006c5, addr: 1, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.485995: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.485997: sys_ptrace(request: 4204, pid: 1006c5, addr: 202, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.485999: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.486048: sys_ptrace(request: 4205, pid: 1006c5, addr: 1, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.486051: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.486053: sys_ptrace(request: 4205, pid: 1006c5, addr: 202, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.486064: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.486066: sys_ptrace(request: 1f, pid: 1006c5, addr: 0, data: 0)
+             exe-1050282 [003] ..... 1635388.486076: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.486079: sys_wait4(upid: 1006c5, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050309 [001] ..... 1635388.486094: sys_move_mount -> 0xffffffffffffffda
+             exe-1050282 [003] ..... 1635388.486108: sys_wait4 -> 0x1006c5
+             exe-1050282 [003] ..... 1635388.486111: sys_ptrace(request: 4204, pid: 1006c5, addr: 1, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.486114: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.486115: sys_ptrace(request: 4204, pid: 1006c5, addr: 202, data: c0004bdc70)
+             exe-1050282 [003] ..... 1635388.486117: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635388.486128: sys_pwrite64(fd: 63, buf: 7fd66dcaa080, count: b2, pos: b4)
+             exe-1050282 [003] ..... 1635388.486129: tracing_mark_write: move_mount(from_dfd=376, from_pathname="/victims/proc/self/root/usr/lib64", to_dfd=186, to_pathname="/victims/proc/self/root/usr/share/perl/5.34.0/unicore/lib/Lb", flags=0x1) end

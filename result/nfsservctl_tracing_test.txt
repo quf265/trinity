@@ -1,0 +1,33 @@
+             exe-1049981 [001] ..... 1635631.925921: tracing_mark_write: nfsservctl(cmd=0x20000000, arg=0x0, res=0x8) start
+             exe-1049981 [001] ..... 1635631.925925: sys_pwrite64 -> 0x32
+             exe-1049981 [001] ..... 1635631.925929: sys_ptrace(request: 4205, pid: 1005d9, addr: 1, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.925931: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.925932: sys_ptrace(request: 4205, pid: 1005d9, addr: 202, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.925937: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.925938: sys_ptrace(request: 1f, pid: 1005d9, addr: 0, data: 0)
+             exe-1049981 [001] ..... 1635631.925945: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.925946: sys_wait4(upid: 1005d9, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049673 [002] ..... 1635631.925955: sys_nanosleep -> 0x0
+             exe-1050073 [003] ..... 1635631.925957: sys_write -> 0x32
+             exe-1049673 [002] ..... 1635631.925959: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049567 [001] ..... 1635631.925987: sys_nanosleep -> 0x0
+             exe-1049567 [001] ..... 1635631.925989: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [001] ..... 1635631.925994: sys_wait4 -> 0x1005d9
+             exe-1049981 [001] ..... 1635631.925996: sys_ptrace(request: 4204, pid: 1005d9, addr: 1, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.925998: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.925998: sys_ptrace(request: 4204, pid: 1005d9, addr: 202, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.926000: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.926004: sys_ptrace(request: 4205, pid: 1005d9, addr: 1, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.926005: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.926006: sys_ptrace(request: 4205, pid: 1005d9, addr: 202, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.926011: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.926012: sys_ptrace(request: 1f, pid: 1005d9, addr: 0, data: 0)
+             exe-1049981 [001] ..... 1635631.926018: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.926019: sys_wait4(upid: 1005d9, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049981 [001] ..... 1635631.926040: sys_wait4 -> 0x1005d9
+             exe-1049981 [001] ..... 1635631.926041: sys_ptrace(request: 4204, pid: 1005d9, addr: 1, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.926042: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.926043: sys_ptrace(request: 4204, pid: 1005d9, addr: 202, data: c0004bdc70)
+             exe-1049981 [001] ..... 1635631.926044: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1635631.926048: sys_pwrite64(fd: 63, buf: 7fd66e1a8080, count: 30, pos: 32)
+             exe-1049981 [001] ..... 1635631.926049: tracing_mark_write: nfsservctl(cmd=0x20000000, arg=0x0, res=0x8) end

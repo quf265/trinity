@@ -1,0 +1,34 @@
+             exe-1049722 [000] ..... 1636559.112483: tracing_mark_write: setfsuid(uid=0xd6d6d6d6) start
+             exe-1049722 [000] ..... 1636559.112488: sys_pwrite64 -> 0x1e
+             exe-1049722 [000] ..... 1636559.112493: sys_ptrace(request: 4205, pid: 100531, addr: 1, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112495: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112496: sys_ptrace(request: 4205, pid: 100531, addr: 202, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112503: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112504: sys_ptrace(request: 1f, pid: 100531, addr: 0, data: 0)
+             exe-1049722 [000] ..... 1636559.112512: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112514: sys_wait4(upid: 100531, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1049673 [003] ..... 1636559.112538: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1636559.112542: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049905 [003] ..... 1636559.112554: sys_write -> 0x1e
+             exe-1049722 [000] ..... 1636559.112569: sys_wait4 -> 0x100531
+             exe-1049722 [000] ..... 1636559.112571: sys_ptrace(request: 4204, pid: 100531, addr: 1, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112573: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112573: sys_ptrace(request: 4204, pid: 100531, addr: 202, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112575: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112599: sys_ptrace(request: 4205, pid: 100531, addr: 1, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112601: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112602: sys_ptrace(request: 4205, pid: 100531, addr: 202, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112607: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112608: sys_ptrace(request: 1f, pid: 100531, addr: 0, data: 0)
+             exe-1049722 [000] ..... 1636559.112610: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112611: sys_wait4(upid: 100531, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1049673 [003] ..... 1636559.112643: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1636559.112647: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049905 [003] ..... 1636559.112659: sys_setfsuid -> 0xffffffffffffffda
+             exe-1049722 [000] ..... 1636559.112674: sys_wait4 -> 0x100531
+             exe-1049722 [000] ..... 1636559.112675: sys_ptrace(request: 4204, pid: 100531, addr: 1, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112677: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112678: sys_ptrace(request: 4204, pid: 100531, addr: 202, data: c0005d3c70)
+             exe-1049722 [000] ..... 1636559.112684: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1636559.112689: sys_pwrite64(fd: 63, buf: 7fd66e1a1080, count: 1c, pos: 1e)
+             exe-1049722 [000] ..... 1636559.112690: tracing_mark_write: setfsuid(uid=0xd6d6d6d6) end

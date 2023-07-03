@@ -1,0 +1,32 @@
+             exe-1050008 [001] ..... 1635445.731887: tracing_mark_write: mq_timedreceive(mqdes=45, u_msg_ptr=0x7f056c400000, msg_len=8, u_msg_prio=0x7f056c200000, u_abs_timeout=0x0) start
+             exe-1050008 [001] ..... 1635445.731894: sys_pwrite64 -> 0x72
+             exe-1050008 [001] ..... 1635445.731899: sys_ptrace(request: 4205, pid: 1005a8, addr: 1, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.731901: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.731903: sys_ptrace(request: 4205, pid: 1005a8, addr: 202, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.731909: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.731911: sys_ptrace(request: 1f, pid: 1005a8, addr: 0, data: 0)
+             exe-1049673 [003] ..... 1635445.731913: sys_nanosleep -> 0x0
+             exe-1050008 [001] ..... 1635445.731917: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.731919: sys_wait4(upid: 1005a8, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049673 [003] ..... 1635445.731926: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1050024 [003] ..... 1635445.731939: sys_write -> 0x72
+             exe-1050008 [001] ..... 1635445.731957: sys_wait4 -> 0x1005a8
+             exe-1050008 [001] ..... 1635445.731959: sys_ptrace(request: 4204, pid: 1005a8, addr: 1, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.731961: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.731963: sys_ptrace(request: 4204, pid: 1005a8, addr: 202, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.731965: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.732013: sys_ptrace(request: 4205, pid: 1005a8, addr: 1, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.732016: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.732017: sys_ptrace(request: 4205, pid: 1005a8, addr: 202, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.732025: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.732026: sys_ptrace(request: 1f, pid: 1005a8, addr: 0, data: 0)
+             exe-1050008 [001] ..... 1635445.732032: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.732033: sys_wait4(upid: 1005a8, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050024 [003] ..... 1635445.732059: sys_mq_timedreceive -> 0xffffffffffffffda
+             exe-1050008 [001] ..... 1635445.732074: sys_wait4 -> 0x1005a8
+             exe-1050008 [001] ..... 1635445.732082: sys_ptrace(request: 4204, pid: 1005a8, addr: 1, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.732084: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.732086: sys_ptrace(request: 4204, pid: 1005a8, addr: 202, data: c0004bdc70)
+             exe-1050008 [001] ..... 1635445.732088: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635445.732093: sys_pwrite64(fd: 63, buf: 7fd66ed7a080, count: 70, pos: 72)
+             exe-1050008 [001] ..... 1635445.732094: tracing_mark_write: mq_timedreceive(mqdes=45, u_msg_ptr=0x7f056c400000, msg_len=8, u_msg_prio=0x7f056c200000, u_abs_timeout=0x0) end

@@ -1,0 +1,34 @@
+             exe-1050282 [003] ..... 1635454.236306: tracing_mark_write: mq_timedsend(mqdes=22, u_msg_ptr=0x0, msg_len=4096, msg_prio=0, u_abs_timeout=0x8) start
+             exe-1050282 [003] ..... 1635454.236312: sys_pwrite64 -> 0x58
+             exe-1050282 [003] ..... 1635454.236318: sys_ptrace(request: 4205, pid: 100712, addr: 1, data: c000699c70)
+             exe-1050282 [003] ..... 1635454.236320: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635454.236321: sys_ptrace(request: 4205, pid: 100712, addr: 202, data: c000699c70)
+             exe-1050282 [003] ..... 1635454.236331: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635454.236332: sys_ptrace(request: 1f, pid: 100712, addr: 0, data: 0)
+             exe-1050282 [003] .N... 1635454.236338: sys_ptrace -> 0x0
+             exe-1050386 [003] ..... 1635454.236346: sys_write -> 0x58
+             exe-1050282 [003] ..... 1635454.236361: sys_wait4(upid: 100712, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050282 [003] ..... 1635454.236363: sys_wait4 -> 0x100712
+             exe-1050282 [003] ..... 1635454.236364: sys_ptrace(request: 4204, pid: 100712, addr: 1, data: c000699c70)
+             exe-1050282 [003] ..... 1635454.236367: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635454.236368: sys_ptrace(request: 4204, pid: 100712, addr: 202, data: c000699c70)
+             exe-1050282 [003] ..... 1635454.236370: sys_ptrace -> 0x0
+             exe-1049673 [001] ..... 1635454.236376: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635454.236380: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [003] ..... 1635454.236404: sys_ptrace(request: 4205, pid: 100712, addr: 1, data: c000699c70)
+             exe-1050282 [003] ..... 1635454.236407: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635454.236408: sys_ptrace(request: 4205, pid: 100712, addr: 202, data: c000699c70)
+             exe-1050282 [003] ..... 1635454.236416: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635454.236418: sys_ptrace(request: 1f, pid: 100712, addr: 0, data: 0)
+             exe-1050282 [003] .N... 1635454.236423: sys_ptrace -> 0x0
+             exe-1050386 [003] ..... 1635454.236444: sys_mq_timedsend -> 0xffffffffffffffda
+             exe-1050282 [003] ..... 1635454.236461: sys_wait4(upid: 100712, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050282 [003] ..... 1635454.236463: sys_wait4 -> 0x100712
+             exe-1050282 [003] ..... 1635454.236465: sys_ptrace(request: 4204, pid: 100712, addr: 1, data: c000699c70)
+             exe-1049673 [001] ..... 1635454.236474: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1635454.236478: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [003] ..... 1635454.236478: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635454.236480: sys_ptrace(request: 4204, pid: 100712, addr: 202, data: c000699c70)
+             exe-1050282 [003] ..... 1635454.236482: sys_ptrace -> 0x0
+             exe-1050282 [003] ..... 1635454.236494: sys_pwrite64(fd: 63, buf: 7fd66e139080, count: 56, pos: 58)
+             exe-1050282 [003] ..... 1635454.236496: tracing_mark_write: mq_timedsend(mqdes=22, u_msg_ptr=0x0, msg_len=4096, msg_prio=0, u_abs_timeout=0x8) end

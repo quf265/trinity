@@ -1,0 +1,30 @@
+             exe-1050008 [001] ..... 1635428.364805: tracing_mark_write: mq_notify(mqdes=274, u_notification=0x7f6e46e00000) start
+             exe-1050008 [001] ..... 1635428.364812: sys_pwrite64 -> 0x39
+             exe-1050008 [001] ..... 1635428.364819: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364822: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364836: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364846: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364847: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)
+             exe-1050008 [001] ..... 1635428.364853: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364855: sys_wait4(upid: 10059f, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1050015 [003] ..... 1635428.364860: sys_write -> 0x39
+             exe-1050008 [001] ..... 1635428.364873: sys_wait4 -> 0x10059f
+             exe-1050008 [001] ..... 1635428.364875: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364878: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364879: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364881: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364916: sys_ptrace(request: 4205, pid: 10059f, addr: 1, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364919: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364920: sys_ptrace(request: 4205, pid: 10059f, addr: 202, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364927: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364928: sys_ptrace(request: 1f, pid: 10059f, addr: 0, data: 0)
+             exe-1050008 [001] ..... 1635428.364934: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364936: sys_wait4(upid: 10059f, stat_addr: c0005d3bf4, options: 40000002, ru: 0)
+             exe-1050015 [003] ..... 1635428.364943: sys_mq_notify -> 0xffffffffffffffda
+             exe-1050008 [001] ..... 1635428.364954: sys_wait4 -> 0x10059f
+             exe-1050008 [001] ..... 1635428.364957: sys_ptrace(request: 4204, pid: 10059f, addr: 1, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364959: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364960: sys_ptrace(request: 4204, pid: 10059f, addr: 202, data: c0005d3c70)
+             exe-1050008 [001] ..... 1635428.364962: sys_ptrace -> 0x0
+             exe-1050008 [001] ..... 1635428.364967: sys_pwrite64(fd: 63, buf: 7fd66edf8080, count: 37, pos: 39)
+             exe-1050008 [001] ..... 1635428.364969: tracing_mark_write: mq_notify(mqdes=274, u_notification=0x7f6e46e00000) end

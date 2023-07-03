@@ -1,0 +1,30 @@
+             exe-1049722 [000] ..... 1634417.898826: tracing_mark_write: fsopen(_fs_name=16384, flags=0x1) start
+             exe-1049722 [000] ..... 1634417.898831: sys_pwrite64 -> 0x27
+             exe-1049722 [000] ..... 1634417.898836: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898837: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898838: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898845: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898846: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [000] ..... 1634417.898850: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898852: sys_wait4(upid: 100616, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050134 [003] ..... 1634417.898857: sys_write -> 0x27
+             exe-1049722 [000] ..... 1634417.898867: sys_wait4 -> 0x100616
+             exe-1049722 [000] ..... 1634417.898869: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898871: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898871: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898873: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898904: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898906: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898906: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898912: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898913: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [000] ..... 1634417.898917: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898919: sys_wait4(upid: 100616, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050134 [003] ..... 1634417.898944: sys_fsopen -> 0xffffffffffffffda
+             exe-1049722 [000] ..... 1634417.898961: sys_wait4 -> 0x100616
+             exe-1049722 [000] ..... 1634417.898963: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898965: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898966: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c000699c70)
+             exe-1049722 [000] ..... 1634417.898968: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634417.898973: sys_pwrite64(fd: 63, buf: 7fd66f96e080, count: 25, pos: 27)
+             exe-1049722 [000] ..... 1634417.898974: tracing_mark_write: fsopen(_fs_name=16384, flags=0x1) end

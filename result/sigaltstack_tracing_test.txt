@@ -1,0 +1,64 @@
+             exe-1049981 [003] ..... 1636753.790554: tracing_mark_write: sigaltstack(uss=0x7f829c82a000, uoss=0x7f829c82a000, regs=0x7f829c82a000) start
+             exe-1049981 [003] ..... 1636753.790563: sys_pwrite64 -> 0x4f
+             exe-1049981 [003] ..... 1636753.790569: sys_ptrace(request: 4205, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790572: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790573: sys_ptrace(request: 4205, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790582: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790583: sys_ptrace(request: 1f, pid: 1005aa, addr: 0, data: 0)
+             exe-1049981 [003] .N... 1636753.790588: sys_ptrace -> 0x0
+             exe-1050026 [003] ..... 1636753.790595: sys_write -> 0x4f
+             exe-1049981 [003] ..... 1636753.790611: sys_wait4(upid: 1005aa, stat_addr: c000697bf4, options: 40000002, ru: 0)
+             exe-1049981 [003] ..... 1636753.790612: sys_wait4 -> 0x1005aa
+             exe-1049981 [003] ..... 1636753.790614: sys_ptrace(request: 4204, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790617: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790618: sys_ptrace(request: 4204, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790619: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790679: sys_ptrace(request: 4205, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790699: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790701: sys_ptrace(request: 4205, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790710: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790711: sys_ptrace(request: 1f, pid: 1005aa, addr: 0, data: 0)
+             exe-1049981 [003] .N... 1636753.790716: sys_ptrace -> 0x0
+             exe-1050026 [003] ..... 1636753.790743: sys_sigaltstack -> 0x0
+             exe-1049567 [003] ..... 1636753.790757: sys_nanosleep -> 0x0
+             exe-1049567 [003] ..... 1636753.790761: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1636753.790784: sys_wait4(upid: 1005aa, stat_addr: c000697bf4, options: 40000002, ru: 0)
+             exe-1049981 [003] ..... 1636753.790786: sys_wait4 -> 0x1005aa
+             exe-1049981 [003] ..... 1636753.790788: sys_ptrace(request: 4204, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790792: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790793: sys_ptrace(request: 4204, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.790795: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.790806: sys_pwrite64(fd: 63, buf: 7fd66ee0a080, count: 4d, pos: 4f)
+             exe-1049981 [003] ..... 1636753.790808: tracing_mark_write: sigaltstack(uss=0x7f829c82a000, uoss=0x7f829c82a000, regs=0x7f829c82a000) end
+             exe-1049981 [003] ..... 1636753.902268: tracing_mark_write: sigaltstack(uss=0x7f829b900000, uoss=0x7f829c828000, regs=0x7f829c828000) start
+             exe-1049981 [003] ..... 1636753.902270: sys_pwrite64 -> 0x4f
+             exe-1049673 [002] ..... 1636753.902275: sys_nanosleep -> 0x0
+             exe-1049981 [003] ..... 1636753.902275: sys_ptrace(request: 4205, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902278: sys_ptrace -> 0x0
+             exe-1049673 [002] ..... 1636753.902279: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049981 [003] ..... 1636753.902279: sys_ptrace(request: 4205, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902290: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.902292: sys_ptrace(request: 1f, pid: 1005aa, addr: 0, data: 0)
+             exe-1049981 [003] .N... 1636753.902298: sys_ptrace -> 0x0
+             exe-1050026 [003] ..... 1636753.902309: sys_write -> 0x4f
+             exe-1049981 [003] ..... 1636753.902327: sys_wait4(upid: 1005aa, stat_addr: c000697bf4, options: 40000002, ru: 0)
+             exe-1049981 [003] ..... 1636753.902330: sys_wait4 -> 0x1005aa
+             exe-1049981 [003] ..... 1636753.902332: sys_ptrace(request: 4204, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902347: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.902349: sys_ptrace(request: 4204, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902351: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.902461: sys_ptrace(request: 4205, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902465: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.902467: sys_ptrace(request: 4205, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902477: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.902479: sys_ptrace(request: 1f, pid: 1005aa, addr: 0, data: 0)
+             exe-1049981 [003] .N... 1636753.902486: sys_ptrace -> 0x0
+             exe-1050026 [003] ..... 1636753.902497: sys_sigaltstack -> 0x0
+             exe-1049981 [003] ..... 1636753.902517: sys_wait4(upid: 1005aa, stat_addr: c000697bf4, options: 40000002, ru: 0)
+             exe-1049981 [003] ..... 1636753.902520: sys_wait4 -> 0x1005aa
+             exe-1049981 [003] ..... 1636753.902522: sys_ptrace(request: 4204, pid: 1005aa, addr: 1, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902525: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.902527: sys_ptrace(request: 4204, pid: 1005aa, addr: 202, data: c000697c70)
+             exe-1049981 [003] ..... 1636753.902530: sys_ptrace -> 0x0
+             exe-1049981 [003] ..... 1636753.902544: sys_pwrite64(fd: 63, buf: 7fd66ee0a080, count: 4d, pos: 4f)
+             exe-1049981 [003] ..... 1636753.902546: tracing_mark_write: sigaltstack(uss=0x7f829b900000, uoss=0x7f829c828000, regs=0x7f829c828000) end

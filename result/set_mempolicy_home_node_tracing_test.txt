@@ -1,0 +1,39 @@
+             exe-1049722 [001] ..... 1636529.193095: tracing_mark_write: set_mempolicy_home_node(start=0xf800, len=4, home_node=55, flags=0) start
+             exe-1049722 [001] ..... 1636529.193108: sys_pwrite64 -> 0x49
+             exe-1049722 [001] ..... 1636529.193113: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0022e7c70)
+             exe-1049722 [001] ..... 1636529.193115: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193116: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0022e7c70)
+             exe-1049722 [001] ..... 1636529.193125: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193126: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1050134 [000] ..... 1636529.193141: sys_write -> 0x49
+             exe-1049722 [001] .N... 1636529.193147: sys_ptrace -> 0x0
+             exe-1049673 [001] ..... 1636529.193153: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1636529.193157: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [001] ..... 1636529.193173: sys_wait4(upid: 100616, stat_addr: c0022e7bf4, options: 40000002, ru: 0)
+             exe-1049722 [001] ..... 1636529.193175: sys_wait4 -> 0x100616
+             exe-1049722 [001] ..... 1636529.193176: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0022e7c70)
+             exe-1049722 [001] ..... 1636529.193179: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193180: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0022e7c70)
+             exe-1049722 [001] ..... 1636529.193182: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193216: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0022e7c70)
+             exe-1049722 [001] ..... 1636529.193218: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193219: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0022e7c70)
+             exe-1049722 [001] ..... 1636529.193226: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193227: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [001] .N... 1636529.193250: sys_ptrace -> 0x0
+             exe-1049673 [001] ..... 1636529.193257: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1636529.193261: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050232 [000] ..... 1636529.193263: sys_epoll_pwait -> 0x0
+             exe-1050232 [000] ..... 1636529.193271: sys_futex(uaddr: c000435948, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049722 [001] ..... 1636529.193276: sys_wait4(upid: 100616, stat_addr: c0022e7bf4, options: 40000002, ru: 0)
+             exe-1050232 [000] ..... 1636529.193277: sys_futex -> 0x1
+             exe-1050232 [000] ..... 1636529.193285: sys_epoll_pwait(epfd: 11, events: c000693840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)
+             exe-1049722 [001] ..... 1636529.193309: sys_wait4 -> 0x100616
+             exe-1050008 [000] ..... 1636529.193311: sys_futex -> 0x0
+             exe-1049722 [001] ..... 1636529.193311: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0022e7c70)
+             exe-1049722 [001] ..... 1636529.193314: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193315: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0022e7c70)
+             exe-1050008 [000] ..... 1636529.193316: sys_futex(uaddr: c000435948, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049722 [001] ..... 1636529.193316: sys_ptrace -> 0x0
+             exe-1049722 [001] ..... 1636529.193334: sys_pwrite64(fd: 63, buf: 7fd66e1dc060, count: 47, pos: 49)
+             exe-1049722 [001] ..... 1636529.193335: tracing_mark_write: set_mempolicy_home_node(start=0xf800, len=4, home_node=55, flags=0) end

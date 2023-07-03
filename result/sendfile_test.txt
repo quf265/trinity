@@ -1,0 +1,8 @@
+sendfile(out_fd=281, in_fd=281, offset=0x8, count=1) = -1 (Bad address)
+sendfile(out_fd=281, in_fd=283, offset=0x1, count=2) = -1 (Bad file descriptor)
+sendfile(out_fd=281, in_fd=149, offset=0x7f72ff5a0000, count=1578) = -1 (Invalid argument)
+sendfile(out_fd=149, in_fd=7, offset=0x7f72fd400000, count=1) = -1 (Bad file descriptor)
+sendfile(out_fd=149, in_fd=149, offset=0x7f72fd600000, count=4096) = -1 (Bad file descriptor)
+sendfile(out_fd=149, in_fd=149, offset=0x8, count=2586) = -1 (Bad file descriptor)
+sendfile(out_fd=362, in_fd=362, offset=0x7f72fd800000, count=1) = 0
+sendfile(out_fd=362, in_fd=289, offset=0x7f72fd600000, count=23) = -1 (Bad file descriptor)

@@ -1,0 +1,64 @@
+             exe-1050289 [003] ..... 1634275.887563: tracing_mark_write: fchmodat(dfd=41, filename="/victims/proc/self/root/usr/share/locale/it", mode=0) start
+             exe-1050289 [003] ..... 1634275.887572: sys_pwrite64 -> 0x56
+             exe-1050289 [003] ..... 1634275.887575: sys_ptrace(request: 4205, pid: 1006f2, addr: 1, data: c0004bdc70)
+             exe-1050289 [003] ..... 1634275.887577: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887578: sys_ptrace(request: 4205, pid: 1006f2, addr: 202, data: c0004bdc70)
+             exe-1050289 [003] ..... 1634275.887584: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887585: sys_ptrace(request: 1f, pid: 1006f2, addr: 0, data: 0)
+             exe-1050289 [003] ..... 1634275.887591: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887593: sys_wait4(upid: 1006f2, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1050354 [000] ..... 1634275.887606: sys_write -> 0x56
+             exe-1050289 [003] ..... 1634275.887620: sys_wait4 -> 0x1006f2
+             exe-1050289 [003] ..... 1634275.887622: sys_ptrace(request: 4204, pid: 1006f2, addr: 1, data: c0004bdc70)
+             exe-1050289 [003] ..... 1634275.887623: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887624: sys_ptrace(request: 4204, pid: 1006f2, addr: 202, data: c0004bdc70)
+             exe-1050289 [003] ..... 1634275.887625: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887764: sys_ptrace(request: 4205, pid: 1006f2, addr: 1, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.887767: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887769: sys_ptrace(request: 4205, pid: 1006f2, addr: 202, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.887779: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887781: sys_ptrace(request: 1f, pid: 1006f2, addr: 0, data: 0)
+             exe-1050289 [003] ..... 1634275.887791: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887794: sys_wait4(upid: 1006f2, stat_addr: c0095f5bf4, options: 40000002, ru: 0)
+             exe-1050354 [000] ..... 1634275.887803: sys_fchmodat -> 0x0
+             exe-1050289 [003] ..... 1634275.887820: sys_wait4 -> 0x1006f2
+             exe-1050289 [003] ..... 1634275.887822: sys_ptrace(request: 4204, pid: 1006f2, addr: 1, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.887824: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887825: sys_ptrace(request: 4204, pid: 1006f2, addr: 202, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.887827: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.887835: sys_pwrite64(fd: 63, buf: 7fd66e2ff080, count: 54, pos: 56)
+             exe-1050289 [003] ..... 1634275.887843: tracing_mark_write: fchmodat(dfd=41, filename="/victims/proc/self/root/usr/share/locale/it", mode=0) end
+             exe-1050289 [003] ..... 1634275.944234: tracing_mark_write: fchmodat(dfd=41, filename="/victims/proc/self/root/usr/local", mode=1050) start
+             exe-1050289 [003] ..... 1634275.944235: sys_pwrite64 -> 0x4f
+             exe-1050289 [003] ..... 1634275.944238: sys_ptrace(request: 4205, pid: 1006f2, addr: 1, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.944240: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944241: sys_ptrace(request: 4205, pid: 1006f2, addr: 202, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.944247: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944248: sys_ptrace(request: 1f, pid: 1006f2, addr: 0, data: 0)
+             exe-1050289 [003] ..... 1634275.944255: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944256: sys_wait4(upid: 1006f2, stat_addr: c0095f5bf4, options: 40000002, ru: 0)
+             exe-1050354 [000] ..... 1634275.944264: sys_write -> 0x4f
+             exe-1050289 [003] ..... 1634275.944274: sys_wait4 -> 0x1006f2
+             exe-1050289 [003] ..... 1634275.944275: sys_ptrace(request: 4204, pid: 1006f2, addr: 1, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.944277: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944278: sys_ptrace(request: 4204, pid: 1006f2, addr: 202, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.944279: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944306: sys_ptrace(request: 4205, pid: 1006f2, addr: 1, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.944308: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944309: sys_ptrace(request: 4205, pid: 1006f2, addr: 202, data: c0095f5c70)
+             exe-1049673 [002] ..... 1634275.944312: sys_nanosleep -> 0x0
+             exe-1049673 [002] ..... 1634275.944314: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050289 [003] ..... 1634275.944315: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944315: sys_ptrace(request: 1f, pid: 1006f2, addr: 0, data: 0)
+             exe-1049567 [001] ..... 1634275.944321: sys_nanosleep -> 0x0
+             exe-1050289 [003] ..... 1634275.944324: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944325: sys_wait4(upid: 1006f2, stat_addr: c0095f5bf4, options: 40000002, ru: 0)
+             exe-1049567 [001] ..... 1634275.944326: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050354 [000] ..... 1634275.944332: sys_fchmodat -> 0x0
+             exe-1050289 [003] ..... 1634275.944342: sys_wait4 -> 0x1006f2
+             exe-1050289 [003] ..... 1634275.944344: sys_ptrace(request: 4204, pid: 1006f2, addr: 1, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.944346: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944347: sys_ptrace(request: 4204, pid: 1006f2, addr: 202, data: c0095f5c70)
+             exe-1050289 [003] ..... 1634275.944348: sys_ptrace -> 0x0
+             exe-1050289 [003] ..... 1634275.944353: sys_pwrite64(fd: 63, buf: 7fd66e2ff080, count: 4d, pos: 4f)
+             exe-1050289 [003] ..... 1634275.944354: tracing_mark_write: fchmodat(dfd=41, filename="/victims/proc/self/root/usr/local", mode=1050) end

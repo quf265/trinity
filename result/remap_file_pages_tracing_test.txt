@@ -1,0 +1,34 @@
+             exe-1050233 [001] ..... 1636058.762278: tracing_mark_write: remap_file_pages(start=0x7f609f300000, size=0x204ff, prot=0, pgoff=0, flags=0x55ac66a38534) start
+             exe-1050233 [001] ..... 1636058.762287: sys_pwrite64 -> 0x61
+             exe-1050233 [001] ..... 1636058.762291: sys_ptrace(request: 4205, pid: 1006a4, addr: 1, data: c000699c70)
+             exe-1050233 [001] ..... 1636058.762293: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762294: sys_ptrace(request: 4205, pid: 1006a4, addr: 202, data: c000699c70)
+             exe-1049673 [000] ..... 1636058.762303: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1636058.762306: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050233 [001] ..... 1636058.762307: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762308: sys_ptrace(request: 1f, pid: 1006a4, addr: 0, data: 0)
+             exe-1050233 [001] ..... 1636058.762312: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762314: sys_wait4(upid: 1006a4, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050276 [003] ..... 1636058.762318: sys_write -> 0x61
+             exe-1050233 [001] ..... 1636058.762329: sys_wait4 -> 0x1006a4
+             exe-1050233 [001] ..... 1636058.762331: sys_ptrace(request: 4204, pid: 1006a4, addr: 1, data: c000699c70)
+             exe-1050233 [001] ..... 1636058.762333: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762334: sys_ptrace(request: 4204, pid: 1006a4, addr: 202, data: c000699c70)
+             exe-1050233 [001] ..... 1636058.762335: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762357: sys_ptrace(request: 4205, pid: 1006a4, addr: 1, data: c000699c70)
+             exe-1050233 [001] ..... 1636058.762359: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762360: sys_ptrace(request: 4205, pid: 1006a4, addr: 202, data: c000699c70)
+             exe-1050233 [001] ..... 1636058.762365: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762367: sys_ptrace(request: 1f, pid: 1006a4, addr: 0, data: 0)
+             exe-1050233 [001] ..... 1636058.762371: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762373: sys_wait4(upid: 1006a4, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050276 [003] ..... 1636058.762374: sys_remap_file_pages -> 0xffffffffffffffda
+             exe-1050233 [001] ..... 1636058.762381: sys_wait4 -> 0x1006a4
+             exe-1050233 [001] ..... 1636058.762382: sys_ptrace(request: 4204, pid: 1006a4, addr: 1, data: c000699c70)
+             exe-1050233 [001] ..... 1636058.762384: sys_ptrace -> 0x0
+             exe-1050233 [001] ..... 1636058.762385: sys_ptrace(request: 4204, pid: 1006a4, addr: 202, data: c000699c70)
+             exe-1050233 [001] ..... 1636058.762387: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1636058.762390: sys_nanosleep -> 0x0
+             exe-1050233 [001] ..... 1636058.762391: sys_pwrite64(fd: 63, buf: 7fd66ed68080, count: 5f, pos: 61)
+             exe-1049673 [000] ..... 1636058.762392: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050233 [001] ..... 1636058.762392: tracing_mark_write: remap_file_pages(start=0x7f609f300000, size=0x204ff, prot=0, pgoff=0, flags=0x55ac66a38534) end

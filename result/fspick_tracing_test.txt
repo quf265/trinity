@@ -1,0 +1,36 @@
+             exe-1049896 [001] ..... 1634426.628174: tracing_mark_write: fspick(dfd=260, path="/victims/usr/lib/x86_64-linux-gnu/perl/5.34.0/auto/attributes", flags=0x1) start
+             exe-1050008 [000] ..... 1634426.628183: sys_futex -> 0x1
+             exe-1049896 [001] ..... 1634426.628188: sys_pwrite64 -> 0x66
+             exe-1049896 [001] ..... 1634426.628193: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628195: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628196: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628202: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628203: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049673 [002] ..... 1634426.628205: sys_nanosleep -> 0x0
+             exe-1050008 [000] ..... 1634426.628206: sys_epoll_pwait(epfd: 11, events: c000a2d840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)
+             exe-1049673 [002] ..... 1634426.628208: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049896 [001] .N... 1634426.628208: sys_ptrace -> 0x0
+             exe-1050503 [001] ..... 1634426.628214: sys_write -> 0x66
+             exe-1049722 [002] ..... 1634426.628219: sys_futex -> 0x0
+             exe-1049896 [001] ..... 1634426.628226: sys_wait4(upid: 100787, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049896 [001] ..... 1634426.628228: sys_wait4 -> 0x100787
+             exe-1049722 [002] ..... 1634426.628229: sys_futex(uaddr: c0002d0548, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049896 [001] ..... 1634426.628229: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628231: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628232: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628234: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628263: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628265: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628266: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628273: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628274: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [001] .N... 1634426.628278: sys_ptrace -> 0x0
+             exe-1050503 [001] ..... 1634426.628285: sys_fspick -> 0xffffffffffffffda
+             exe-1049896 [001] ..... 1634426.628297: sys_wait4(upid: 100787, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049896 [001] ..... 1634426.628299: sys_wait4 -> 0x100787
+             exe-1049896 [001] ..... 1634426.628300: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628303: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628303: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c0004bdc70)
+             exe-1049896 [001] ..... 1634426.628305: sys_ptrace -> 0x0
+             exe-1049896 [001] ..... 1634426.628311: sys_pwrite64(fd: 63, buf: 7fd66e21f080, count: 64, pos: 66)
+             exe-1049896 [001] ..... 1634426.628312: tracing_mark_write: fspick(dfd=260, path="/victims/usr/lib/x86_64-linux-gnu/perl/5.34.0/auto/attributes", flags=0x1) end

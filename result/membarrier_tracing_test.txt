@@ -1,0 +1,285 @@
+             exe-1050282 [001] ..... 1635272.355158: tracing_mark_write: membarrier(cmd=0x0, flags=0) start
+             exe-1049673 [003] ..... 1635272.355171: sys_nanosleep -> 0x0
+             exe-1050282 [001] ..... 1635272.355171: sys_pwrite64 -> 0x22
+             exe-1049673 [003] ..... 1635272.355174: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1050282 [001] ..... 1635272.355178: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355180: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355181: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355194: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355195: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [001] .N... 1635272.355202: sys_ptrace -> 0x0
+             exe-1050290 [001] ..... 1635272.355211: sys_write -> 0x22
+             exe-1050282 [001] ..... 1635272.355225: sys_wait4(upid: 1006b2, stat_addr: c000a2fbf4, options: 40000002, ru: 0)
+             exe-1050282 [001] ..... 1635272.355227: sys_wait4 -> 0x1006b2
+             exe-1050282 [001] ..... 1635272.355229: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355231: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355232: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355234: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355249: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355251: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355252: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355260: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355261: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [001] .N... 1635272.355266: sys_ptrace -> 0x0
+             exe-1050290 [001] ..... 1635272.355282: sys_membarrier -> 0x1f
+             exe-1050282 [001] ..... 1635272.355298: sys_wait4(upid: 1006b2, stat_addr: c000a2fbf4, options: 40000002, ru: 0)
+             exe-1050282 [001] ..... 1635272.355300: sys_wait4 -> 0x1006b2
+             exe-1050282 [001] ..... 1635272.355302: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355305: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355306: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.355307: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.355318: sys_pwrite64(fd: 63, buf: 7fd66edb4080, count: 20, pos: 22)
+             exe-1050282 [001] ..... 1635272.355320: tracing_mark_write: membarrier(cmd=0x0, flags=0) end
+             exe-1050282 [001] ..... 1635272.410760: tracing_mark_write: membarrier(cmd=0x1, flags=0) start
+             exe-1050282 [001] ..... 1635272.410761: sys_pwrite64 -> 0x22
+             exe-1050282 [001] ..... 1635272.410765: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.410767: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.410768: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.410776: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.410778: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1049673 [003] ..... 1635272.410779: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.410781: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [001] .N... 1635272.410783: sys_ptrace -> 0x0
+             exe-1050290 [001] ..... 1635272.410790: sys_write -> 0x22
+             exe-1050282 [001] ..... 1635272.410803: sys_wait4(upid: 1006b2, stat_addr: c000a2fbf4, options: 40000002, ru: 0)
+             exe-1050282 [001] ..... 1635272.410805: sys_wait4 -> 0x1006b2
+             exe-1050282 [001] ..... 1635272.410806: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.410809: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.410810: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.410812: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.410816: sys_membarrier(cmd: 1, flags: 0, cpu_id: 0)
+             exe-1049567 [002] ..... 1635272.410875: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.410880: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.410961: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.410965: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411053: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411057: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.411066: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411070: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.411079: sys_epoll_pwait -> 0x0
+             exe-1049981 [003] ..... 1635272.411096: sys_futex(uaddr: c0001acd48, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049981 [003] ..... 1635272.411113: sys_futex -> 0x1
+             exe-1049981 [003] ..... 1635272.411160: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 2, sigmask: 0, sigsetsize: 0)
+             exe-1049567 [002] ..... 1635272.411171: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411176: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411182: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411188: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [000] ..... 1635272.411215: sys_futex -> 0x0
+             exe-1049896 [000] ..... 1635272.411229: sys_futex(uaddr: c0001acd48, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049567 [002] ..... 1635272.411277: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411281: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411282: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411286: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411372: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411374: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.411382: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411386: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411462: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411464: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.411488: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411493: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411550: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411552: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.411594: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411598: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411638: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411640: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.411699: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411703: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411726: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411728: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.411804: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411808: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411813: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411816: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411902: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411904: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.411909: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.411913: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.411990: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.411992: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412014: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412018: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412078: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412080: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412119: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412124: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412166: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412168: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412225: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412229: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412254: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412256: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412330: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412334: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412342: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412348: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412434: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412435: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412436: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412439: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412523: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412526: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412541: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412546: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412611: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412614: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412647: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412651: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412700: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412702: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412788: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412790: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.412823: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.412828: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412876: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412878: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.412964: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.412966: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.413020: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.413025: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.413076: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.413078: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.413226: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.413229: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.413245: sys_epoll_pwait -> 0x0
+             exe-1049981 [003] ..... 1635272.413255: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 1, sigmask: 0, sigsetsize: 0)
+             exe-1049567 [002] ..... 1635272.413388: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.413393: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.413486: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.413493: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.413902: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.413905: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.414113: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.414119: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.414368: sys_epoll_pwait -> 0x0
+             exe-1049981 [003] ..... 1635272.414385: sys_futex(uaddr: c0001acd48, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049981 [003] ..... 1635272.414400: sys_futex -> 0x1
+             exe-1049981 [003] ..... 1635272.414456: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 6, sigmask: 0, sigsetsize: 0)
+             exe-1049896 [000] ..... 1635272.414572: sys_futex -> 0x0
+             exe-1049896 [000] ..... 1635272.414585: sys_futex(uaddr: c0001acd48, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049673 [003] ..... 1635272.414637: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.414645: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.415480: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.415485: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.416017: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.416021: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.418170: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.418179: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.418732: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.418741: sys_epoll_pwait(epfd: 10, events: c000069920, maxevents: 80, timeout: 0, sigmask: 0, sigsetsize: 0)
+             exe-1049673 [003] ..... 1635272.418744: sys_epoll_pwait -> 0x0
+             exe-1049673 [003] ..... 1635272.418748: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.420615: sys_epoll_pwait -> 0x0
+             exe-1049981 [003] ..... 1635272.420630: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 1, sigmask: 0, sigsetsize: 0)
+             exe-1049981 [003] ..... 1635272.421776: sys_epoll_pwait -> 0x0
+             exe-1049981 [003] ..... 1635272.421789: sys_futex(uaddr: c0001acd48, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049981 [003] ..... 1635272.421802: sys_futex -> 0x1
+             exe-1049981 [003] ..... 1635272.421816: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)
+             exe-1049896 [000] ..... 1635272.421890: sys_futex -> 0x0
+             exe-1049896 [000] ..... 1635272.421904: sys_futex(uaddr: c0001acd48, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049567 [002] ..... 1635272.423421: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.423428: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.423539: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.423544: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049673 [003] ..... 1635272.424009: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.424018: sys_futex(uaddr: c0002dd548, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049673 [003] .N... 1635272.424027: sys_futex -> 0x1
+             exe-1067990 [003] ..... 1635272.424031: sys_futex -> 0x0
+             exe-1067990 [003] ..... 1635272.424036: sys_futex(uaddr: c0002dd548, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049673 [003] ..... 1635272.424044: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [003] ..... 1635272.424158: sys_nanosleep -> 0x0
+             exe-1049673 [003] ..... 1635272.424162: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049981 [003] ..... 1635272.430984: sys_epoll_pwait -> 0x0
+             exe-1049981 [003] ..... 1635272.430998: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 1, sigmask: 0, sigsetsize: 0)
+             exe-1049567 [002] ..... 1635272.431928: sys_futex -> 0xffffffffffffff92
+             exe-1049567 [002] ..... 1635272.431934: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.432043: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.432046: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.432120: sys_epoll_pwait -> 0x0
+             exe-1049567 [002] ..... 1635272.432138: sys_nanosleep -> 0x0
+             exe-1049981 [003] ..... 1635272.432138: sys_futex(uaddr: c0001acd48, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049567 [002] ..... 1635272.432141: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.432153: sys_futex -> 0x1
+             exe-1049981 [003] ..... 1635272.432168: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)
+             exe-1049896 [000] ..... 1635272.432231: sys_futex -> 0x0
+             exe-1049567 [002] ..... 1635272.432232: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.432234: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049896 [000] ..... 1635272.432245: sys_futex(uaddr: c0001acd48, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049567 [002] ..... 1635272.432324: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.432328: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049981 [003] ..... 1635272.441342: sys_epoll_pwait -> 0x0
+             exe-1049981 [003] ..... 1635272.441358: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 1, sigmask: 0, sigsetsize: 0)
+             exe-1049567 [002] ..... 1635272.442225: sys_futex -> 0xffffffffffffff92
+             exe-1049567 [002] ..... 1635272.442233: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.442335: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.442340: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049567 [002] ..... 1635272.442456: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.442461: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.442550: sys_epoll_pwait -> 0x0
+             exe-1049567 [002] ..... 1635272.442557: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.442560: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049981 [003] ..... 1635272.442576: sys_futex(uaddr: c0001acd48, op: 81, val: 1, utime: 0, uaddr2: 0, val3: 0)
+             exe-1049981 [003] ..... 1635272.442585: sys_futex -> 0x1
+             exe-1049981 [003] ..... 1635272.442601: sys_epoll_pwait(epfd: 11, events: c00063b840, maxevents: 80, timeout: 9, sigmask: 0, sigsetsize: 0)
+             exe-1049896 [000] ..... 1635272.442609: sys_futex -> 0x0
+             exe-1049896 [000] ..... 1635272.442622: sys_futex(uaddr: c0001acd48, op: 80, val: 0, utime: 0, uaddr2: 0, val3: 0)
+             exe-1050282 [001] ..... 1635272.442635: sys_membarrier -> 0x0
+             exe-1049567 [002] ..... 1635272.442646: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.442649: sys_getpid()
+             exe-1049567 [002] ..... 1635272.442651: sys_getpid -> 0x1003ce
+             exe-1049567 [002] ..... 1635272.442653: sys_tgkill(tgid: 1003ce, pid: 1006aa, sig: 17)
+             exe-1050282 [001] ..... 1635272.442657: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.442664: sys_ptrace -> 0x0
+             exe-1049567 [002] ..... 1635272.442669: sys_tgkill -> 0x0
+             exe-1049567 [002] ..... 1635272.442671: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [001] ..... 1635272.442688: sys_rt_sigreturn()
+             exe-1050282 [001] ..... 1635272.442691: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.442719: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.442722: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [001] .N... 1635272.442730: sys_ptrace -> 0x0
+             exe-1050290 [001] ..... 1635272.442746: sys_membarrier -> 0x0
+             exe-1049567 [002] ..... 1635272.442758: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1635272.442760: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [001] ..... 1635272.442774: sys_wait4(upid: 1006b2, stat_addr: c000a2fbf4, options: 40000002, ru: 0)
+             exe-1050282 [001] ..... 1635272.442777: sys_wait4 -> 0x1006b2
+             exe-1050282 [001] ..... 1635272.442780: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.442784: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.442786: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [001] ..... 1635272.442790: sys_ptrace -> 0x0
+             exe-1050282 [001] ..... 1635272.442811: sys_pwrite64(fd: 63, buf: 7fd66edb4080, count: 20, pos: 22)
+             exe-1050282 [001] ..... 1635272.442815: tracing_mark_write: membarrier(cmd=0x1, flags=0) end
+             exe-1050282 [000] ..... 1635272.511978: tracing_mark_write: membarrier(cmd=0x0, flags=0) start
+             exe-1050282 [000] ..... 1635272.511980: sys_pwrite64 -> 0x22
+             exe-1050282 [000] ..... 1635272.511985: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [000] ..... 1635272.511987: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.511989: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [000] ..... 1635272.511996: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.511998: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [000] ..... 1635272.512005: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512007: sys_wait4(upid: 1006b2, stat_addr: c000a2fbf4, options: 40000002, ru: 0)
+             exe-1050290 [001] ..... 1635272.512014: sys_write -> 0x22
+             exe-1050282 [000] ..... 1635272.512030: sys_wait4 -> 0x1006b2
+             exe-1050282 [000] ..... 1635272.512032: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [000] ..... 1635272.512035: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512036: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [000] ..... 1635272.512038: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512042: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1050282 [000] ..... 1635272.512045: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512046: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [000] ..... 1635272.512052: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512054: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [000] ..... 1635272.512060: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512062: sys_wait4(upid: 1006b2, stat_addr: c000a2fbf4, options: 40000002, ru: 0)
+             exe-1050290 [001] ..... 1635272.512066: sys_membarrier -> 0x1f
+             exe-1049567 [000] ..... 1635272.512095: sys_nanosleep -> 0x0
+             exe-1049567 [000] ..... 1635272.512099: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [000] ..... 1635272.512111: sys_wait4 -> 0x1006b2
+             exe-1049673 [003] ..... 1635272.512114: sys_nanosleep -> 0x0
+             exe-1050282 [000] ..... 1635272.512114: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000a2fc70)
+             exe-1049673 [003] ..... 1635272.512116: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [000] ..... 1635272.512116: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512118: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000a2fc70)
+             exe-1050282 [000] ..... 1635272.512120: sys_ptrace -> 0x0
+             exe-1050282 [000] ..... 1635272.512126: sys_pwrite64(fd: 63, buf: 7fd66edb4080, count: 20, pos: 22)
+             exe-1050282 [000] ..... 1635272.512128: tracing_mark_write: membarrier(cmd=0x0, flags=0) end

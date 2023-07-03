@@ -1,0 +1,72 @@
+             exe-1050282 [002] ..... 1633948.719800: tracing_mark_write: chmod(filename="/victims/usr/share/locale/ko/LC_MESSAGES", mode=1701) start
+             exe-1050282 [002] ..... 1633948.719805: sys_pwrite64 -> 0x4b
+             exe-1050282 [002] ..... 1633948.719809: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.719811: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719812: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.719819: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719820: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [002] .N... 1633948.719824: sys_ptrace -> 0x0
+             exe-1050290 [002] ..... 1633948.719832: sys_write -> 0x4b
+             exe-1050282 [002] ..... 1633948.719844: sys_wait4(upid: 1006b2, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050282 [002] ..... 1633948.719846: sys_wait4 -> 0x1006b2
+             exe-1050282 [002] ..... 1633948.719847: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.719849: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719850: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1049673 [000] ..... 1633948.719850: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1633948.719852: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [002] ..... 1633948.719852: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719900: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.719902: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719903: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.719910: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719911: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [002] .N... 1633948.719916: sys_ptrace -> 0x0
+             exe-1050290 [002] ..... 1633948.719924: sys_chmod -> 0x0
+             exe-1049673 [000] ..... 1633948.719930: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1633948.719932: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [002] ..... 1633948.719937: sys_wait4(upid: 1006b2, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050282 [002] ..... 1633948.719938: sys_wait4 -> 0x1006b2
+             exe-1050282 [002] ..... 1633948.719940: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.719942: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719943: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.719954: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.719961: sys_pwrite64(fd: 63, buf: 7fd66e212080, count: 49, pos: 4b)
+             exe-1050282 [002] ..... 1633948.719962: tracing_mark_write: chmod(filename="/victims/usr/share/locale/ko/LC_MESSAGES", mode=1701) end
+             exe-1050282 [002] ..... 1633948.775667: tracing_mark_write: chmod(filename="/victims/usr/share/lintian/", mode=4000) start
+             exe-1050282 [002] ..... 1633948.775669: sys_pwrite64 -> 0x3e
+             exe-1050282 [002] ..... 1633948.775678: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.775682: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775684: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.775698: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775700: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [002] .N... 1633948.775710: sys_ptrace -> 0x0
+             exe-1050290 [002] ..... 1633948.775723: sys_write -> 0x3e
+             exe-1049673 [000] ..... 1633948.775741: sys_nanosleep -> 0x0
+             exe-1049567 [001] ..... 1633948.775744: sys_nanosleep -> 0x0
+             exe-1049567 [001] ..... 1633948.775745: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049673 [000] ..... 1633948.775746: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [002] ..... 1633948.775749: sys_wait4(upid: 1006b2, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050282 [002] ..... 1633948.775753: sys_wait4 -> 0x1006b2
+             exe-1050282 [002] ..... 1633948.775756: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.775761: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775763: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.775767: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775813: sys_ptrace(request: 4205, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.775818: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775820: sys_ptrace(request: 4205, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1049567 [001] ..... 1633948.775826: sys_nanosleep -> 0x0
+             exe-1049567 [001] ..... 1633948.775827: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050282 [002] ..... 1633948.775834: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775837: sys_ptrace(request: 1f, pid: 1006b2, addr: 0, data: 0)
+             exe-1050282 [002] .N... 1633948.775847: sys_ptrace -> 0x0
+             exe-1049673 [000] ..... 1633948.775849: sys_nanosleep -> 0x0
+             exe-1049673 [000] ..... 1633948.775854: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1050290 [002] ..... 1633948.775860: sys_chmod -> 0x0
+             exe-1050282 [002] ..... 1633948.775886: sys_wait4(upid: 1006b2, stat_addr: c000699bf4, options: 40000002, ru: 0)
+             exe-1050282 [002] ..... 1633948.775889: sys_wait4 -> 0x1006b2
+             exe-1050282 [002] ..... 1633948.775892: sys_ptrace(request: 4204, pid: 1006b2, addr: 1, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.775898: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775900: sys_ptrace(request: 4204, pid: 1006b2, addr: 202, data: c000699c70)
+             exe-1050282 [002] ..... 1633948.775904: sys_ptrace -> 0x0
+             exe-1050282 [002] ..... 1633948.775918: sys_pwrite64(fd: 63, buf: 7fd66e212080, count: 3c, pos: 3e)
+             exe-1050282 [002] ..... 1633948.775921: tracing_mark_write: chmod(filename="/victims/usr/share/lintian/", mode=4000) end

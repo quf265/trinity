@@ -1,0 +1,30 @@
+             exe-1049896 [002] ..... 1634242.877243: tracing_mark_write: fanotify_init(flags=0x560ba66db, event_f_flags=0x81001) start
+             exe-1049896 [002] ..... 1634242.877245: sys_pwrite64 -> 0x3d
+             exe-1049896 [002] ..... 1634242.877249: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877251: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877253: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877260: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877262: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [002] .N... 1634242.877267: sys_ptrace -> 0x0
+             exe-1050503 [002] ..... 1634242.877274: sys_write -> 0x3d
+             exe-1049896 [002] ..... 1634242.877288: sys_wait4(upid: 100787, stat_addr: c000a29bf4, options: 40000002, ru: 0)
+             exe-1049896 [002] ..... 1634242.877290: sys_wait4 -> 0x100787
+             exe-1049896 [002] ..... 1634242.877292: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877294: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877295: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877297: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877323: sys_ptrace(request: 4205, pid: 100787, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877326: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877327: sys_ptrace(request: 4205, pid: 100787, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877335: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877336: sys_ptrace(request: 1f, pid: 100787, addr: 0, data: 0)
+             exe-1049896 [002] .N... 1634242.877341: sys_ptrace -> 0x0
+             exe-1050503 [002] ..... 1634242.877349: sys_fanotify_init -> 0xffffffffffffffda
+             exe-1049896 [002] ..... 1634242.877365: sys_wait4(upid: 100787, stat_addr: c000a29bf4, options: 40000002, ru: 0)
+             exe-1049896 [002] ..... 1634242.877367: sys_wait4 -> 0x100787
+             exe-1049896 [002] ..... 1634242.877368: sys_ptrace(request: 4204, pid: 100787, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877371: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877372: sys_ptrace(request: 4204, pid: 100787, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1634242.877374: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1634242.877381: sys_pwrite64(fd: 63, buf: 7fd66f96e080, count: 3b, pos: 3d)
+             exe-1049896 [002] ..... 1634242.877382: tracing_mark_write: fanotify_init(flags=0x560ba66db, event_f_flags=0x81001) end

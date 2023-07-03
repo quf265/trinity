@@ -1,0 +1,31 @@
+             exe-1049896 [002] ..... 1635774.977317: tracing_mark_write: pkey_alloc(flags=0, init_val=0x7fdabe419d00) start
+             exe-1049896 [002] ..... 1635774.977321: sys_pwrite64 -> 0x32
+             exe-1049896 [002] ..... 1635774.977326: sys_ptrace(request: 4205, pid: 100784, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977328: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977329: sys_ptrace(request: 4205, pid: 100784, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977337: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977338: sys_ptrace(request: 1f, pid: 100784, addr: 0, data: 0)
+             exe-1049896 [002] .N... 1635774.977342: sys_ptrace -> 0x0
+             exe-1050500 [002] ..... 1635774.977350: sys_write -> 0x32
+             exe-1049896 [002] ..... 1635774.977373: sys_wait4(upid: 100784, stat_addr: c000a29bf4, options: 40000002, ru: 0)
+             exe-1049896 [002] ..... 1635774.977375: sys_wait4 -> 0x100784
+             exe-1049896 [002] ..... 1635774.977376: sys_ptrace(request: 4204, pid: 100784, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977379: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977380: sys_ptrace(request: 4204, pid: 100784, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977381: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977396: sys_ptrace(request: 4205, pid: 100784, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977397: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977398: sys_ptrace(request: 4205, pid: 100784, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977405: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977406: sys_ptrace(request: 1f, pid: 100784, addr: 0, data: 0)
+             exe-1049896 [002] .N... 1635774.977411: sys_ptrace -> 0x0
+             exe-1050500 [002] ..... 1635774.977417: sys_pkey_alloc -> 0xffffffffffffffda
+             exe-1049896 [002] ..... 1635774.977430: sys_wait4(upid: 100784, stat_addr: c000a29bf4, options: 40000002, ru: 0)
+             exe-1049896 [002] ..... 1635774.977431: sys_wait4 -> 0x100784
+           <...>-44358   [003] ..... 1635774.977432: sys_write(fd: 6b, buf: c000e05224, count: 4)
+             exe-1049896 [002] ..... 1635774.977432: sys_ptrace(request: 4204, pid: 100784, addr: 1, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977434: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977435: sys_ptrace(request: 4204, pid: 100784, addr: 202, data: c000a29c70)
+             exe-1049896 [002] ..... 1635774.977437: sys_ptrace -> 0x0
+             exe-1049896 [002] ..... 1635774.977443: sys_pwrite64(fd: 63, buf: 7fd66e20a080, count: 30, pos: 32)
+             exe-1049896 [002] ..... 1635774.977444: tracing_mark_write: pkey_alloc(flags=0, init_val=0x7fdabe419d00) end

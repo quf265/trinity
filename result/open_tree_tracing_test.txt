@@ -1,0 +1,32 @@
+             exe-1050289 [002] ..... 1635677.207519: tracing_mark_write: open_tree(dfd=20, filename="/victims/usr/lib/x86_64-linux-gnu/perl-base/Text", flags=0x1000) start
+             exe-1050289 [002] ..... 1635677.207532: sys_pwrite64 -> 0x62
+             exe-1050289 [002] ..... 1635677.207538: sys_ptrace(request: 4205, pid: 10071e, addr: 1, data: c0022e3c70)
+             exe-1049673 [000] ..... 1635677.207539: sys_nanosleep -> 0x0
+             exe-1050289 [002] ..... 1635677.207540: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207541: sys_ptrace(request: 4205, pid: 10071e, addr: 202, data: c0022e3c70)
+             exe-1049673 [000] ..... 1635677.207544: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1050289 [002] ..... 1635677.207551: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207552: sys_ptrace(request: 1f, pid: 10071e, addr: 0, data: 0)
+             exe-1050289 [002] .N... 1635677.207557: sys_ptrace -> 0x0
+             exe-1050398 [002] ..... 1635677.207565: sys_write -> 0x62
+             exe-1050289 [002] ..... 1635677.207581: sys_wait4(upid: 10071e, stat_addr: c0022e3bf4, options: 40000002, ru: 0)
+             exe-1050289 [002] ..... 1635677.207583: sys_wait4 -> 0x10071e
+             exe-1050289 [002] ..... 1635677.207584: sys_ptrace(request: 4204, pid: 10071e, addr: 1, data: c0022e3c70)
+             exe-1050289 [002] ..... 1635677.207587: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207588: sys_ptrace(request: 4204, pid: 10071e, addr: 202, data: c0022e3c70)
+             exe-1050289 [002] ..... 1635677.207590: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207658: sys_ptrace(request: 4205, pid: 10071e, addr: 1, data: c0022e3c70)
+             exe-1050289 [002] ..... 1635677.207660: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207661: sys_ptrace(request: 4205, pid: 10071e, addr: 202, data: c0022e3c70)
+             exe-1050289 [002] ..... 1635677.207670: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207672: sys_ptrace(request: 1f, pid: 10071e, addr: 0, data: 0)
+             exe-1050289 [002] .N... 1635677.207677: sys_ptrace -> 0x0
+             exe-1050398 [002] ..... 1635677.207686: sys_open_tree -> 0xffffffffffffffda
+             exe-1050289 [002] ..... 1635677.207702: sys_wait4(upid: 10071e, stat_addr: c0022e3bf4, options: 40000002, ru: 0)
+             exe-1050289 [002] ..... 1635677.207704: sys_wait4 -> 0x10071e
+             exe-1050289 [002] ..... 1635677.207705: sys_ptrace(request: 4204, pid: 10071e, addr: 1, data: c0022e3c70)
+             exe-1050289 [002] ..... 1635677.207708: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207709: sys_ptrace(request: 4204, pid: 10071e, addr: 202, data: c0022e3c70)
+             exe-1050289 [002] ..... 1635677.207711: sys_ptrace -> 0x0
+             exe-1050289 [002] ..... 1635677.207719: sys_pwrite64(fd: 63, buf: 7fd66e1d6080, count: 60, pos: 62)
+             exe-1050289 [002] ..... 1635677.207721: tracing_mark_write: open_tree(dfd=20, filename="/victims/usr/lib/x86_64-linux-gnu/perl-base/Text", flags=0x1000) end

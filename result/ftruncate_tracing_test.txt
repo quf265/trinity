@@ -1,0 +1,66 @@
+             exe-1049722 [000] ..... 1634459.346642: tracing_mark_write: ftruncate(fd=369, length=4) start
+             exe-1049722 [000] ..... 1634459.346651: sys_pwrite64 -> 0x21
+             exe-1049722 [000] ..... 1634459.346656: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346659: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.346659: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346667: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.346668: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [000] .N... 1634459.346674: sys_ptrace -> 0x0
+             exe-1050134 [000] ..... 1634459.346682: sys_write -> 0x21
+             exe-1049722 [000] ..... 1634459.346695: sys_wait4(upid: 100616, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049673 [001] ..... 1634459.346695: sys_nanosleep -> 0x0
+             exe-1049722 [000] ..... 1634459.346697: sys_wait4 -> 0x100616
+             exe-1049673 [001] ..... 1634459.346697: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049722 [000] ..... 1634459.346699: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346701: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.346702: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346704: sys_ptrace -> 0x0
+             exe-1049567 [002] ..... 1634459.346712: sys_nanosleep -> 0x0
+             exe-1049567 [002] ..... 1634459.346715: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [000] ..... 1634459.346720: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346721: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.346722: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346730: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.346731: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [000] .N... 1634459.346736: sys_ptrace -> 0x0
+             exe-1050134 [000] ..... 1634459.346751: sys_ftruncate -> 0x0
+             exe-1049722 [000] ..... 1634459.346766: sys_wait4(upid: 100616, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049722 [000] ..... 1634459.346768: sys_wait4 -> 0x100616
+             exe-1049722 [000] ..... 1634459.346770: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346772: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.346782: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.346784: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.346794: sys_pwrite64(fd: 63, buf: 7fd66edd7080, count: 1f, pos: 21)
+             exe-1049722 [000] ..... 1634459.346796: tracing_mark_write: ftruncate(fd=369, length=4) end
+             exe-1049722 [000] ..... 1634459.412838: tracing_mark_write: ftruncate(fd=369, length=4) start
+             exe-1049722 [000] ..... 1634459.412839: sys_pwrite64 -> 0x21
+             exe-1049722 [000] ..... 1634459.412844: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.412846: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.412847: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049673 [001] ..... 1634459.412856: sys_nanosleep -> 0x0
+             exe-1049673 [001] ..... 1634459.412857: sys_nanosleep(rqtp: c000069f10, rmtp: 0)
+             exe-1049722 [000] .N... 1634459.412877: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.412907: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [000] .N... 1634459.412912: sys_ptrace -> 0x0
+             exe-1050134 [000] ..... 1634459.412920: sys_write -> 0x21
+             exe-1049722 [000] ..... 1634459.412934: sys_wait4(upid: 100616, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049722 [000] ..... 1634459.412936: sys_wait4 -> 0x100616
+             exe-1049722 [000] ..... 1634459.412937: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.412940: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.412941: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.412943: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.412950: sys_ptrace(request: 4205, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.412952: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.412953: sys_ptrace(request: 4205, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.412960: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.412961: sys_ptrace(request: 1f, pid: 100616, addr: 0, data: 0)
+             exe-1049722 [000] .N... 1634459.412982: sys_ptrace -> 0x0
+             exe-1050134 [000] ..... 1634459.413011: sys_ftruncate -> 0x0
+             exe-1049722 [000] ..... 1634459.413028: sys_wait4(upid: 100616, stat_addr: c0004bdbf4, options: 40000002, ru: 0)
+             exe-1049722 [000] ..... 1634459.413030: sys_wait4 -> 0x100616
+             exe-1049722 [000] ..... 1634459.413032: sys_ptrace(request: 4204, pid: 100616, addr: 1, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.413035: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.413036: sys_ptrace(request: 4204, pid: 100616, addr: 202, data: c0004bdc70)
+             exe-1049722 [000] ..... 1634459.413038: sys_ptrace -> 0x0
+             exe-1049722 [000] ..... 1634459.413048: sys_pwrite64(fd: 63, buf: 7fd66edd7080, count: 1f, pos: 21)
+             exe-1049722 [000] ..... 1634459.413050: tracing_mark_write: ftruncate(fd=369, length=4) end

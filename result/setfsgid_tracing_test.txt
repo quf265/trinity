@@ -1,0 +1,32 @@
+             exe-1049981 [001] ..... 1636548.339256: tracing_mark_write: setfsgid(gid=0x6a1d044918588b8e) start
+             exe-1049981 [001] ..... 1636548.339267: sys_pwrite64 -> 0x26
+             exe-1049981 [001] ..... 1636548.339271: sys_ptrace(request: 4205, pid: 10058a, addr: 1, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339274: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339275: sys_ptrace(request: 4205, pid: 10058a, addr: 202, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339282: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339284: sys_ptrace(request: 1f, pid: 10058a, addr: 0, data: 0)
+             exe-1049673 [000] ..... 1636548.339285: sys_nanosleep -> 0x0
+             exe-1049981 [001] ..... 1636548.339289: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339291: sys_wait4(upid: 10058a, stat_addr: c0022e1bf4, options: 40000002, ru: 0)
+             exe-1049673 [000] ..... 1636548.339296: sys_futex(uaddr: 1f09dc0, op: 80, val: 0, utime: c000069eb0, uaddr2: 0, val3: 0)
+             exe-1049994 [000] ..... 1636548.339306: sys_write -> 0x26
+             exe-1049981 [001] ..... 1636548.339326: sys_wait4 -> 0x10058a
+             exe-1049981 [001] ..... 1636548.339329: sys_ptrace(request: 4204, pid: 10058a, addr: 1, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339331: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339332: sys_ptrace(request: 4204, pid: 10058a, addr: 202, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339334: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339365: sys_ptrace(request: 4205, pid: 10058a, addr: 1, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339368: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339369: sys_ptrace(request: 4205, pid: 10058a, addr: 202, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339376: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339378: sys_ptrace(request: 1f, pid: 10058a, addr: 0, data: 0)
+             exe-1049981 [001] ..... 1636548.339383: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339385: sys_wait4(upid: 10058a, stat_addr: c0022e1bf4, options: 40000002, ru: 0)
+             exe-1049994 [000] ..... 1636548.339389: sys_setfsgid -> 0xffffffffffffffda
+             exe-1049981 [001] ..... 1636548.339405: sys_wait4 -> 0x10058a
+             exe-1049981 [001] ..... 1636548.339407: sys_ptrace(request: 4204, pid: 10058a, addr: 1, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339409: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339410: sys_ptrace(request: 4204, pid: 10058a, addr: 202, data: c0022e1c70)
+             exe-1049981 [001] ..... 1636548.339412: sys_ptrace -> 0x0
+             exe-1049981 [001] ..... 1636548.339418: sys_pwrite64(fd: 63, buf: 7fd66ee21080, count: 24, pos: 26)
+             exe-1049981 [001] ..... 1636548.339419: tracing_mark_write: setfsgid(gid=0x6a1d044918588b8e) end
